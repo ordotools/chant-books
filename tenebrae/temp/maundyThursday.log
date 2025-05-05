@@ -1,0 +1,1881 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.3.23)  31 MAR 2023 09:18
+ restricted system commands enabled.
+**maundyThursday.tex
+(./maundyThursday.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/frbarnes/Library/texlive/202
+3/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/frbarnes/Library/texlive/202
+3/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-02-22>
+Inserting `tracingstacklevels' in `input_level_string'.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article do
+cument class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count183
+)
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
+\@memcnta=\count184
+\c@@memmarkcntra=\count185
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\stockheight=\dimen139
+\stockwidth=\dimen140
+\trimtop=\skip51
+\trimedge=\skip52
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/memoir/mem10.clo
+File: mem10.clo 2022/07/29 v0.5 memoir class 10pt size option
+luaotfload | db : Font names database loaded from /Users/frbarnes/Library/texliv
+e/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
+\c@storedpagenumber=\count186
+\memPD=\dimen141
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
+\c@book=\count187
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
+\c@@ppsavesec=\count195
+\c@@ppsaveapp=\count196
+\ragrparindent=\dimen142
+\everylistparindent=\dimen143
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
+\@enLab=\toks16
+\abstitleskip=\skip100
+\absleftindent=\skip101
+\abs@leftindent=\dimen144
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
+\c@vslineno=\count197
+\c@poemline=\count198
+\c@modulo@vs=\count199
+\c@memfvsline=\count266
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
+\vleftmargin=\dimen145
+\c@verse=\count267
+\c@chrsinstr=\count268
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
+\c@poem=\count269
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen146
+\ar@mcellbox=\box51
+\extrarowheight=\dimen147
+\NC@list=\toks17
+\extratabsurround=\skip116
+\backup@length=\skip117
+\ar@cellbox=\box52
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen148
+\TX@old@table=\dimen149
+\TX@old@col=\dimen150
+\TX@target=\dimen151
+\TX@delta=\dimen152
+\TX@cols=\count270
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
+\@cmidla=\count271
+\@cmidlb=\count272
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
+\@thisruleclass=\count273
+\@lastruleclass=\count274
+\@thisrulewidth=\dimen165
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
+\abovecolumnspenalty=\count275
+\@linestogo=\count276
+\@cellstogo=\count277
+\@cellsincolumn=\count278
+\crtok=\toks19
+\@mincolumnwidth=\dimen166
+\c@newflo@tctr=\count279
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
+\subfloatcapmargin=\dimen167
+\c@@contsubnum=\count280
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen168
+\sidecapwidth=\dimen169
+\m@m@tempdima=\dimen170
+\m@mscapraise=\dimen171
+\sidecapraise=\dimen172
+\m@mscapmainwidth=\dimen173
+\m@mscaplkern=\dimen174
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
+\cftbookindent=\dimen175
+\cftbooknumwidth=\dimen176
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
+\prechapterprecisshift=\dimen177
+\c@maxsecnumdepth=\count281
+\bibindent=\dimen178
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen179
+\glossaryrule=\dimen180
+\sideparvshift=\skip161
+\sideins=\insert251
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count282
+\m@m@h=\dimen181
+\m@mipn@skip=\skip170
+\sidefootins=\insert248
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
+\c@sidefootnote=\count283
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
+\c@pagenote=\count284
+\c@pagenoteshadow=\count285
+\mem@pn@lastkern=\skip180
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count286
+\verbatim@in@stream=\read2
+\verbatimindent=\skip181
+\verbatim@out=\write3
+\bvboxsep=\skip182
+\c@memfbvline=\count287
+\c@bvlinectr=\count288
+\bvnumlength=\skip183
+\fb@frw=\dimen182
+\fb@frh=\dimen183
+\FrameRule=\dimen184
+\FrameSep=\dimen185
+\c@cp@cntr=\count289
+\c@ism@mctr=\count290
+\c@xsm@mctr=\count291
+\c@csm@mctr=\count292
+\c@ksm@mctr=\count293
+\c@xksm@mctr=\count294
+\c@cksm@mctr=\count295
+\c@msm@mctr=\count296
+\c@xmsm@mctr=\count297
+\c@cmsm@mctr=\count298
+\c@bsm@mctr=\count299
+\c@workm@mctr=\count300
+\c@sheetsequence=\count301
+\c@lastsheet=\count302
+\c@lastpage=\count303
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+\c@figure=\count304
+\c@lofdepth=\count305
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
+\c@table=\count306
+\c@lotdepth=\count307
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(./tenebrae.sty
+Package: tenebrae 
+
+
+******************************************************
+Stock height and width: 614.295pt by 397.48499pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 614.295pt by 397.48499pt
+Text height and width: 466pt by 248pt
+Spine and edge margins: 49.68562pt and 99.37125pt
+Upper and lower margins: 49.68562pt and 98.60938pt
+Headheight and headsep: 12pt and 18.06749pt
+Footskip: 25.29494pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 85.37125pt
+Sidecapsep and sidecapwidth: 7pt and 51pt
+Sidebarhsep and sidebarwidth: 7pt and 51pt
+Sidebarvsep and sidebartopsep: 12pt and 0pt
+Sidebarheight: 368.39996pt
+Sidefoothsep and sidefootwidth: 7pt and 51pt
+Sidefootvsep and sidefootheight: 12pt and 368.39996pt
+******************************************************
+
+(/usr/local/texlive/2023/texmf-dist/tex/lualatex/gregoriotex/gregoriotex.sty
+Package: gregoriotex 2021/03/13 v6.0.0 GregorioTeX system.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/luacolor/luacolor.sty
+Package: luacolor 2021-02-17 v1.17 Color support via LuaTeX's attributes (HO)
+Inserting `luacolor.process' in `pre_shipout_filter'.
+\LuaCol@Attribute=\attribute4
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen186
+\Gin@req@width=\dimen187
+)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count308
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luamplib/luamplib.sty
+Package: luamplib 2022/01/12 v2.23.0 mplib package for LuaTeX
+Lua module: luamplib 2022/01/12 2.23.0 Lua package to typeset Metapost with LuaT
+eX's MPLib.
+\mplibtmptoks=\toks25
+\mplibscratchbox=\box56
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count309
+\decimalpart=\count310
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-main.tex
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-common.t
+ex)
+\gre@attr@dash=\attribute5
+\gre@attr@center=\attribute6
+\GreScoreId=\attribute7
+\gre@attr@glyph@id=\attribute8
+\gre@attr@glyph@top=\attribute9
+\gre@attr@glyph@bottom=\attribute10
+\gre@attr@syllable@id=\attribute11
+\gre@atletter=\catcodetable14
+Lua module: gregoriotex 2021/03/13 6.0.0 GregorioTeX module.
+Custom whatsit marker = 1
+Module gregoriotex Info: marker whatsit id is 1 on input line 121
+
+(temp/maundyThursday.gaux)
+Module gregoriotex Info: Reading temp/maundyThursday.gaux on input line 125
+Inserting `gregoriotex.write_greaux' in `finish_pdffile'.
+\gre@gaux=\write4
+\gre@read@temp=\read3
+\gre@factor=\count311
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-spaces.t
+ex
+\gre@saved@prescore@hyphenpenalty=\count312
+\gre@saved@prescore@exhyphenpenalty=\count313
+\gre@saved@prescore@exhyphenchar=\count314
+\gre@saved@prescore@doublehyphendemerits=\count315
+\gre@saved@prescore@finalhyphendemerits=\count316
+\gre@saved@prescore@brokenpenalty=\count317
+\gre@saved@prescore@looseness=\count318
+\gre@saved@prescore@tolerance=\count319
+\gre@saved@prescore@pretolerance=\count320
+\gre@saved@prescore@emergencystretch=\skip190
+\gre@saved@prescore@widowpenalty=\count321
+\gre@saved@prescore@clubpenalty=\count322
+\gre@saved@prescore@parskip=\skip191
+\gre@saved@prescore@lineskip=\skip192
+\gre@saved@prescore@baselineskip=\skip193
+\gre@saved@prescore@lineskiplimit=\skip194
+\gre@dimen@textlower=\dimen188
+\gre@dimen@stafflinewidth=\dimen189
+\gre@dimen@linewidth=\dimen190
+\gre@dimen@stafflineheight=\dimen191
+\gre@dimen@interstafflinespace=\dimen192
+\gre@dimen@stafflinediff=\dimen193
+\gre@dimen@constantglyphraise=\dimen194
+\gre@dimen@staffheight=\dimen195
+\gre@skip@syllablefinalskip=\skip195
+\gre@skip@minTextDistance=\skip196
+\gre@skip@minNotesDistance=\skip197
+\gre@dimen@curTextDistance=\dimen196
+\gre@dimen@curNotesDistance=\dimen197
+\gre@skip@minShiftText=\skip198
+\gre@skip@minShiftNotes=\skip199
+\gre@dimen@bolshift=\dimen198
+\gre@dimen@bolextra=\dimen199
+\gre@dimen@clefwidth@current=\dimen256
+\gre@dimen@clefwidth@largest=\dimen257
+\gre@dimen@clefwidth@bol=\dimen258
+\gre@dimen@eolshift=\dimen259
+\gre@dimen@glyphraisevalue=\dimen260
+\gre@dimen@additionalbottomspace=\dimen261
+\gre@dimen@additionaltopspace=\dimen262
+\gre@dimen@additionaltopspacealt=\dimen263
+\gre@dimen@additionaltopspacenabc=\dimen264
+\gre@space@count@additionaltopspacethreshold=\count323
+\gre@space@count@additionaltopspacealtthreshold=\count324
+\gre@space@count@additionaltopspacenabcthreshold=\count325
+\gre@space@count@noteadditionalspacelinestextthreshold=\count326
+\gre@saved@prediscretionary@dimen@additionalbottomspace=\dimen265
+\gre@saved@prediscretionary@dimen@additionaltopspace=\dimen266
+\gre@saved@prediscretionary@dimen@additionaltopspacealt=\dimen267
+\gre@saved@prediscretionary@dimen@additionaltopspacenabc=\dimen268
+\gre@saved@prediscretionary@dimen@currenttranslationheight=\dimen269
+\gre@saved@prediscretionary@dimen@textlower=\dimen270
+\gre@saved@prediscretionary@dimen@currentabovelinestextheight=\dimen271
+\gre@saved@prediscretionary@dimen@constantglyphraise=\dimen272
+\gre@dimen@textaligncenter=\dimen273
+\gre@dimen@enddifference=\dimen274
+\gre@dimen@previousenddifference=\dimen275
+\gre@dimen@currenttranslationheight=\dimen276
+\gre@skip@nextbegindifference=\skip256
+\gre@dimen@annotationtrueraise=\dimen277
+\gre@dimen@commentarytrueraise=\dimen278
+\gre@skip@bar@requirement=\skip257
+\gre@skip@bar@allocation=\skip258
+\gre@dimen@bar@shift=\dimen279
+\gre@skip@text@requirement=\skip259
+\gre@skip@text@allocation=\skip260
+\gre@dimen@text@shift=\dimen280
+\gre@dimen@adjustedpreviousenddifference=\dimen281
+\gre@skip@adjustednextbegindifference=\dimen282
+\gre@skip@punctummorashift=\skip261
+\gre@skip@alterationshift=\skip262
+\gre@dimen@begindifference=\dimen283
+\gre@dimen@lastglyphwidth=\dimen284
+\gre@dimen@notesaligncenter=\dimen285
+\gre@dimen@additionalleftspace=\dimen286
+\gre@dimen@initialwidth=\dimen287
+\gre@dimen@currentabovelinestextheight=\dimen288
+\gre@dimen@temp@one=\dimen289
+\gre@dimen@temp@two=\dimen290
+\gre@dimen@temp@three=\dimen291
+\gre@dimen@temp@four=\dimen292
+\gre@dimen@temp@five=\dimen293
+\gre@skip@temp@one=\skip263
+\gre@skip@temp@two=\skip264
+\gre@skip@temp@three=\skip265
+\gre@skip@temp@four=\skip266
+\gre@count@temp@one=\count327
+\gre@count@temp@two=\count328
+\gre@count@temp@three=\count329
+\gre@space@count@newlinepenalty=\count330
+\gre@space@count@nobreakpenalty=\count331
+\gre@space@count@endofwordpenalty=\count332
+\gre@space@count@endofsyllablepenalty=\count333
+\gre@space@count@endafterbarpenalty=\count334
+\gre@space@count@endafterbaraltpenalty=\count335
+\gre@space@count@finalpenalty=\count336
+\gre@space@count@endofelementpenalty=\count337
+\gre@space@count@hyphenpenalty=\count338
+\gre@space@count@brokenpenalty=\count339
+\gre@space@count@looseness=\count340
+\gre@space@count@tolerance=\count341
+\gre@space@count@pretolerance=\count342
+\gre@space@count@widowpenalty=\count343
+\gre@space@count@clubpenalty=\count344
+\greconffactor=\count345
+)
+\gre@box@temp@width=\box57
+\gre@box@initial=\box58
+\gre@biginitial=\count346
+\gre@knownline=\count347
+\gre@box@annotation=\box59
+\gre@box@add=\box60
+\gre@box@old=\box61
+\gre@count@annotationvalign=\count348
+\gre@box@commentary=\box62
+\gre@box@lines=\box63
+Module gregoriotex Info: Registering variant font greciliae as gre@font@variant@
+A. on input line 987
+Module gregoriotex Info: Registering variant font greciliae-hollow as gre@font@v
+ariant@B. on input line 987
+Module gregoriotex Info: Registering variant font greciliae-hole as gre@font@var
+iant@C. on input line 987
+luaotfload | cache : Lookup cache loaded from /Users/frbarnes/Library/texlive/20
+23/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+Module gregoriotex Info: Mapping font greciliae on input line 992
+Module gregoriotex Info: Mapping font greciliae-hollow on input line 992
+Module gregoriotex Info: Mapping font greciliae-hole on input line 992
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-chars.te
+x
+\gre@box@hep=\box64
+)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-signs.te
+x
+\gre@box@temp@clef=\box65
+\gre@box@temp@cleftwo=\box66
+\greslurheight=\dimen294
+\gre@box@temp@sign=\box67
+\gre@count@shiftaftermora=\count349
+\gre@dimen@morawidth=\dimen295
+\gre@skip@bar@lastskip=\skip267
+\gre@count@lastglyphiscavum=\count350
+)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-syllable
+.tex
+\gre@generate@pointandclick=\count351
+\gre@box@syllablenotes=\box68
+\gre@box@syllabletext=\box69
+\gre@clivisalignment=\count352
+\gre@count@unbreakabletotalnotes=\count353
+\gre@count@unbreakableinitialnotes=\count354
+\gre@count@unbreakablefinalnotes=\count355
+\gre@count@syllablenotes=\count356
+)
+\gre@variableheightexpansion=\count357
+\gre@lastoflinecount=\count358
+\gre@saved@prenlba@nobreakpenalty=\count359
+\gre@saved@prenlba@endofwordpenalty=\count360
+\gre@saved@prenlba@endofsyllablepenalty=\count361
+\gre@saved@prenlba@endafterbarpenalty=\count362
+\gre@saved@prenlba@endafterbaraltpenalty=\count363
+\gre@saved@prenlba@endofelementpenalty=\count364
+\gre@saved@prenlba@hyphenpenalty=\count365
+\gre@lasteuouaeindex=\count366
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-symbols.
+tex
+Module gregoriotex Info: Registering variant font greextra as gre@font@variant@D
+. on input line 53
+)
+\gre@dimen@stafflinethicknessbase=\dimen296
+\gre@dimen@glyphraisebase=\dimen297
+\gre@dimen@interstafflinedistancebase=\dimen298
+\gre@dimen@inclinatumonlinemoravshiftbase=\dimen299
+\gre@dimen@inclinatumonlinemorahshiftbase=\dimen300
+\gre@dimen@inclinatumofflinemorahshiftbase=\dimen301
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-gsp-defa
+ult.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex
+))) (/Users/frbarnes/Library/texmf/tex/psalms/psalms.sty
+Package: psalms 2014/08/21 psalms
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read4
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@german-x-2023-03-06=\language4
+\l@ngerman-x-2023-03-06=\language5
+\l@afrikaans=\language6
+\l@ancientgreek=\language7
+\l@ibycus=\language8
+\l@arabic=\language9
+\l@armenian=\language10
+\l@basque=\language11
+\l@belarusian=\language12
+\l@bulgarian=\language13
+\l@catalan=\language14
+\l@pinyin=\language15
+\l@churchslavonic=\language16
+\l@coptic=\language17
+\l@croatian=\language18
+\l@czech=\language19
+\l@danish=\language20
+\l@dutch=\language21
+\l@ukenglish=\language22
+\l@usenglishmax=\language23
+\l@esperanto=\language24
+\l@estonian=\language25
+\l@ethiopic=\language26
+\l@farsi=\language27
+\l@finnish=\language28
+\l@schoolfinnish=\language29
+\l@french=\language30
+\l@friulan=\language31
+\l@galician=\language32
+\l@georgian=\language33
+\l@german=\language34
+\l@ngerman=\language35
+\l@swissgerman=\language36
+\l@greek=\language37
+\l@monogreek=\language38
+\l@hungarian=\language39
+\l@icelandic=\language40
+\l@assamese=\language41
+\l@bengali=\language42
+\l@gujarati=\language43
+\l@hindi=\language44
+\l@kannada=\language45
+\l@malayalam=\language46
+\l@marathi=\language47
+\l@oriya=\language48
+\l@pali=\language49
+\l@panjabi=\language50
+\l@tamil=\language51
+\l@telugu=\language52
+\l@indonesian=\language53
+\l@interlingua=\language54
+\l@irish=\language55
+\l@italian=\language56
+\l@kurmanji=\language57
+\l@classiclatin=\language58
+\l@latin=\language59
+\l@liturgicallatin=\language60
+\l@latvian=\language61
+\l@lithuanian=\language62
+\l@macedonian=\language63
+\l@mongolian=\language64
+\l@mongolianlmc=\language65
+\l@bokmal=\language66
+\l@nynorsk=\language67
+\l@occitan=\language68
+\l@piedmontese=\language69
+\l@polish=\language70
+\l@portuguese=\language71
+\l@romanian=\language72
+\l@romansh=\language73
+\l@russian=\language74
+\l@sanskrit=\language75
+\l@serbian=\language76
+\l@serbianc=\language77
+\l@slovak=\language78
+\l@slovenian=\language79
+\l@spanish=\language80
+\l@swedish=\language81
+\l@thai=\language82
+\l@turkish=\language83
+\l@turkmen=\language84
+\l@ukrainian=\language85
+\l@uppersorbian=\language86
+\l@welsh=\language87
+\babelcatcodetablenum=\catcodetable15
+\bbl@pattcodes=\catcodetable16
+)
+\babel@savecnt=\count367
+\U@D=\dimen302
+\l@unhyphenated=\language88
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute12
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel-latin/latin.ldf
+Language: latin 2021-06-27 v4.0 Latin support from the babel system
+Package babel Info: Making " an active character on input line 135.
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-la.
+tex UTF-8 Latin hyphenation patterns
+(/usr/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-la.
+tex))))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/la/babel-latin.tex
+Package babel Info: Importing font and identification data for latin
+(babel)             from babel-la.ini. Reported on input line 9.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count368
+\l__pdf_internal_box=\box70
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/
+usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count369
+\l__fontspec_language_int=\count370
+\l__fontspec_strnum_int=\count371
+\l__fontspec_tmp_int=\count372
+\l__fontspec_tmpa_int=\count373
+\l__fontspec_tmpb_int=\count374
+\l__fontspec_tmpc_int=\count375
+\l__fontspec_em_int=\count376
+\l__fontspec_emdef_int=\count377
+\l__fontspec_strong_int=\count378
+\l__fontspec_strongdef_int=\count379
+\l__fontspec_tmpa_dim=\dimen303
+\l__fontspec_tmpb_dim=\dimen304
+\l__fontspec_tmpc_dim=\dimen305
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'Minion3(0)' created for font 'Minion3'
+(fontspec)             with options [Ligatures=TeX,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Minion3:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Minion3:mode=node;script=latn;language=dflt;+tlig;+s
+mcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Minion3/B:mode=node;script=latn;language=dflt;+tlig;
+"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Minion3/B:mode=node;script=latn;language=dflt;+tlig;
++smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Minion3/I:mode=node;script=latn;language=dflt;+tlig;
+"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Minion3/BI:mode=node;script=latn;language=dflt;+tlig
+;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2022-09-25 v2.30 (Daniel Flipo)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count380
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/minifp/minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
+\MFP@loopctr=\count381
+)
+\c@DefaultLines=\count382
+\c@DefaultDepth=\count383
+\DefaultFindent=\dimen306
+\DefaultNindent=\dimen307
+\DefaultSlope=\dimen308
+\DiscardVskip=\dimen309
+
+Loading lettrine.cfg
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lettrine/lettrine.cfg)
+\L@lbox=\box71
+\L@tbox=\box72
+\c@L@lines=\count384
+\c@L@depth=\count385
+\L@Pindent=\dimen310
+\L@Findent=\dimen311
+\L@Nindent=\dimen312
+\L@lraise=\dimen313
+\L@first=\dimen314
+\L@next=\dimen315
+\L@slope=\dimen316
+\L@height=\dimen317
+\L@novskip=\dimen318
+\L@target@ht=\dimen319
+\L@target@dp=\dimen320
+\L@target@tht=\dimen321
+\LettrineWidth=\dimen322
+\LettrineHeight=\dimen323
+\LettrineDepth=\dimen324
+\Llist@everypar=\toks28
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks29
+\MT@tempbox=\box73
+\MT@count=\count386
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks30
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen325
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count387
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2023/03/13 v3.1a Definitions specific to luatex (RS)
+
+Lua module: microtype 2023/03/13 3.1a microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 688.
+LaTeX Info: Redefining \lslig on input line 688.
+\MT@outer@space=\skip268
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+\c@antiphon=\count388
+\c@allantiphon=\count389
+\c@responsory=\count390
+)
+(./temp/maundyThursday.aux)
+\openout1 = maundyThursday.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count391
+\scratchdimen=\dimen326
+\scratchbox=\box74
+\nofMPsegments=\count392
+\nofMParguments=\count393
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count394
+\MPscratchDim=\dimen327
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
+\everyMPtoPDFconversion=\toks32
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
+LaTeX Font Info:    Redeclaring math accent \check on input line 6.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Minion3(0)/m/n on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Minion3(0)/m/n on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Minion3(0)/m/n --> TU/Minion3(0)/m/n on input line 6
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Minion3(0)/m/it on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Minion3(0)/b/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Minion3(0)/m/n --> TU/Minion3(0)/b/n on input line 6
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Minion3(0)/b/it on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 6.
+LaTeX Info: Redefining \microtypecontext on input line 6.
+Package microtype Info: Applying patch `item' on input line 6.
+Package microtype Info: Applying patch `toc' on input line 6.
+Package microtype Info: Applying patch `eqnum' on input line 6.
+Package microtype Info: Applying patch `footnote' on input line 6.
+Package microtype Info: Applying patch `verbatim' on input line 6.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 6.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Minion3' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+(./MaundyThursday/matins1.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found an--zelus_domus_tuae--solesmes_1961.gabc in ./ant
+iphons/ on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found an--zelus_domus_tuae--solesmes_1961-6_0_0.gtex di
+rectly on input line 3
+ (./an--zelus_domus_tuae--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found 68-8c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/6
+8/68-8c/68-8c.gabc using kpsewhich on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found 68-8c-6_0_0.gtex directly on input line 3
+ (./68-8c-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/68-8c.tex
+[3]
+LaTeX Font Info:    Font shape `TU/Minion3(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/Minion3(0)/m/it' tried instead on input line
+ 39.
+ [4] [5])
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found an--avertantur_retrorsum--solesmes_1961.gabc in .
+/antiphons/ on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found an--avertantur_retrorsum--solesmes_1961-6_0_0.gte
+x directly on input line 5
+ (./an--avertantur_retrorsum--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found 69-8c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/6
+9/69-8c/69-8c.gabc using kpsewhich on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found 69-8c-6_0_0.gtex directly on input line 5
+
+(./69-8c-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/69-8c.tex)
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Looking in ./antiphons/ on input line 7
+Module gregoriotex Info: Found an--deus_meus_eripe_me--solesmes_1961.gabc in ./a
+ntiphons/ on input line 7
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Found an--deus_meus_eripe_me--solesmes_1961-6_0_0.gtex 
+directly on input line 7
+
+(./an--deus_meus_eripe_me--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Looking in ./antiphons/ on input line 7
+Module gregoriotex Info: Found 70-8c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+0/70-8c/70-8c.gabc using kpsewhich on input line 7
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Found 70-8c-6_0_0.gtex directly on input line 7
+ (./70-8c-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+[6]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/70-8c.tex [7])
+Module gregoriotex Info: Processing gabc snippet... on input line 13
+Module gregoriotex Info: will use gregorio on input line 13
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Processing gabc snippet... on input line 13
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [8]
+Module gregoriotex Info: Looking in  on input line 36
+Module gregoriotex Info: Looking in ./responsories/ on input line 36
+Module gregoriotex Info: Found re--in_monte_oliveti--solesmes_1961.gabc in ./res
+ponsories/ on input line 36
+Module gregoriotex Info: Looking in  on input line 36
+Module gregoriotex Info: Found re--in_monte_oliveti--solesmes_1961-6_0_0.gtex di
+rectly on input line 36
+
+(./re--in_monte_oliveti--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [9]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 55
+Module gregoriotex Info: Looking in ./responsories/ on input line 55
+Module gregoriotex Info: Found re--tristis_est--solesmes_1961.gabc in ./responso
+ries/ on input line 55
+Module gregoriotex Info: Looking in  on input line 55
+Module gregoriotex Info: Found re--tristis_est--solesmes_1961-6_0_0.gtex directl
+y on input line 55
+
+(./re--tristis_est--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [10]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 75
+Module gregoriotex Info: Looking in ./responsories/ on input line 75
+Module gregoriotex Info: Found re--ecce_vidimus_--solesmes_1961.gabc in ./respon
+sories/ on input line 75
+Module gregoriotex Info: Looking in  on input line 75
+Module gregoriotex Info: Found re--ecce_vidimus_--solesmes_1961-6_0_0.gtex direc
+tly on input line 75
+
+(./re--ecce_vidimus_--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [11] [12]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.))
+(./MaundyThursday/matins2.tex
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found an--liberavit_dominus--solesmes_1961.gabc in ./an
+tiphons/ on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found an--liberavit_dominus--solesmes_1961-6_0_0.gtex d
+irectly on input line 3
+
+(./an--liberavit_dominus--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Overfull \hbox (8.45567pt too wide) detected at line 204
+|
+ []
+
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found 71-7c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+1/71-7c/71-7c.gabc using kpsewhich on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found 71-7c-6_0_0.gtex directly on input line 3
+ (./71-7c-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/71-7c.tex
+[13])
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found an--cogitaverunt_impii--solesmes_1961.gabc in ./a
+ntiphons/ on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found an--cogitaverunt_impii--solesmes_1961-6_0_0.gtex 
+directly on input line 5
+ (./an--cogitaverunt_impii--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found 72-8c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+2/72-8c/72-8c.gabc using kpsewhich on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found 72-8c-6_0_0.gtex directly on input line 5
+ (./72-8c-6_0_0.gtex
+[14]
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/72-8c.tex [15])
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Looking in ./antiphons/ on input line 7
+Module gregoriotex Info: Found an--exsurge_domine_et_judica--solesmes_1961.gabc 
+in ./antiphons/ on input line 7
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Found an--exsurge_domine_et_judica--solesmes_1961-6_0_0
+.gtex directly on input line 7
+
+(./an--exsurge_domine_et_judica--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Looking in ./antiphons/ on input line 7
+Module gregoriotex Info: Found 73-1g.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+3/73-1g/73-1g.gabc using kpsewhich on input line 7
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Found 73-1g-6_0_0.gtex directly on input line 7
+ (./73-1g-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/73-1g.tex [16] [17])
+Module gregoriotex Info: Processing gabc snippet... on input line 13
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Processing gabc snippet... on input line 13
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Looking in  on input line 35
+Module gregoriotex Info: Looking in ./responsories/ on input line 35
+Module gregoriotex Info: Found re--in_monte_oliveti--solesmes_1961.gabc in ./res
+ponsories/ on input line 35
+Module gregoriotex Info: Looking in  on input line 35
+Module gregoriotex Info: Found re--in_monte_oliveti--solesmes_1961-6_0_0.gtex di
+rectly on input line 35
+
+(./re--in_monte_oliveti--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [18]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [19]
+Module gregoriotex Info: Looking in  on input line 53
+Module gregoriotex Info: Looking in ./responsories/ on input line 53
+Module gregoriotex Info: Found re--tristis_est--solesmes_1961.gabc in ./responso
+ries/ on input line 53
+Module gregoriotex Info: Looking in  on input line 53
+Module gregoriotex Info: Found re--tristis_est--solesmes_1961-6_0_0.gtex directl
+y on input line 53
+
+(./re--tristis_est--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [20]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 70
+Module gregoriotex Info: Looking in ./responsories/ on input line 70
+Module gregoriotex Info: Found re--ecce_vidimus_--solesmes_1961.gabc in ./respon
+sories/ on input line 70
+Module gregoriotex Info: Looking in  on input line 70
+Module gregoriotex Info: Found re--ecce_vidimus_--solesmes_1961-6_0_0.gtex direc
+tly on input line 70
+
+(./re--ecce_vidimus_--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [21]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.))
+(./MaundyThursday/matins3.tex
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found an--dixi_iniquis--solesmes_1961.gabc in ./antipho
+ns/ on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found an--dixi_iniquis--solesmes_1961-6_0_0.gtex direct
+ly on input line 3
+ (./an--dixi_iniquis--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found 74-7c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+4/74-7c/74-7c.gabc using kpsewhich on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found 74-7c-6_0_0.gtex directly on input line 3
+
+(./74-7c-6_0_0.gtex [22]
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+(/Users/frbarnes/Library/texmf/tex/psalms/ng/74-7c.tex)
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found an--terra_tremuit--solesmes_1961.gabc in ./antiph
+ons/ on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found an--terra_tremuit--solesmes_1961-6_0_0.gtex direc
+tly on input line 5
+
+(./an--terra_tremuit--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [23]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found 75-8c.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+5/75-8c/75-8c.gabc using kpsewhich on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found 75-8c-6_0_0.gtex directly on input line 5
+ (./75-8c-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+(/Users/frbarnes/Library/texmf/tex/psalms/ng/75-8c.tex)
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Looking in ./antiphons/ on input line 7
+Module gregoriotex Info: Found an--in_die_tribulationis--solesmes_1961.gabc in .
+/antiphons/ on input line 7
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Found an--in_die_tribulationis--solesmes_1961-6_0_0.gte
+x directly on input line 7
+
+(./an--in_die_tribulationis--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [24]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Looking in ./antiphons/ on input line 7
+Module gregoriotex Info: Found 76-7a.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/7
+6/76-7a/76-7a.gabc using kpsewhich on input line 7
+Module gregoriotex Info: Looking in  on input line 7
+Module gregoriotex Info: Found 76-7a-6_0_0.gtex directly on input line 7
+ (./76-7a-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/76-7a.tex [25])
+Module gregoriotex Info: Processing gabc snippet... on input line 13
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Processing gabc snippet... on input line 13
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [26]
+Module gregoriotex Info: Looking in  on input line 33
+Module gregoriotex Info: Looking in ./responsories/ on input line 33
+Module gregoriotex Info: Found re--in_monte_oliveti--solesmes_1961.gabc in ./res
+ponsories/ on input line 33
+Module gregoriotex Info: Looking in  on input line 33
+Module gregoriotex Info: Found re--in_monte_oliveti--solesmes_1961-6_0_0.gtex di
+rectly on input line 33
+
+(./re--in_monte_oliveti--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [27]
+Module gregoriotex Info: Looking in  on input line 47
+Module gregoriotex Info: Looking in ./responsories/ on input line 47
+Module gregoriotex Info: Found re--una_hora--solesmes_1961.1.gabc in ./responsor
+ies/ on input line 47
+Module gregoriotex Info: Looking in  on input line 47
+Module gregoriotex Info: Found re--una_hora--solesmes_1961.1-6_0_0.gtex directly
+ on input line 47
+
+(./re--una_hora--solesmes_1961.1-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Overfull \hbox (4.14964pt too wide) detected at line 295
+|
+ []
+
+
+Overfull \hbox (49.31918pt too wide) detected at line 295
+|
+ []
+
+
+Overfull \hbox (8.17033pt too wide) detected at line 295
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 309
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 309
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 326
+|
+ []
+
+
+Overfull \hbox (8.17033pt too wide) detected at line 373
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 409
+|
+ []
+
+
+Overfull \hbox (8.17033pt too wide) detected at line 409
+|
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 11--1104
+ []  [][][] [][][] [] [][][] [][][][] [][] [] [][][][][][][][] [][][] [] [] [] 
+[]  [][][] [][][] [][][][][]
+ []
+
+[28
+Module gregoriotex Info: saving a93637c2e5d3e065d98c2ce2bce459d939598cff.1, 1 [1
+] (7980975,16700476) on input line 1104
+Module gregoriotex Info: saving a93637c2e5d3e065d98c2ce2bce459d939598cff.1, 1 [2
+] (10941206,16700476) on input line 1104
+Module gregoriotex Info: computed length for a93637c2e5d3e065d98c2ce2bce459d9395
+98cff.1, 1: 2960231 on input line 1104
+]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 63
+Module gregoriotex Info: Looking in ./responsories/ on input line 63
+Module gregoriotex Info: Found re--seniores--solesmes_1961.gabc in ./responsorie
+s/ on input line 63
+Module gregoriotex Info: Looking in  on input line 63
+Module gregoriotex Info: Found re--seniores--solesmes_1961-6_0_0.gtex directly o
+n input line 63
+ (./re--seniores--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [29]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)) [30]
+(./MaundyThursday/laudes.tex
+Module gregoriotex Info: Looking in  on input line 1
+Module gregoriotex Info: Looking in ./antiphons/ on input line 1
+Module gregoriotex Info: Found an--justificeris_domine--solesmes.gabc in ./antip
+hons/ on input line 1
+Module gregoriotex Info: Looking in  on input line 1
+Module gregoriotex Info: Found an--justificeris_domine--solesmes-6_0_0.gtex dire
+ctly on input line 1
+ (./an--justificeris_domine--solesmes-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1
+Module gregoriotex Info: Looking in ./antiphons/ on input line 1
+Module gregoriotex Info: Found 50-8g.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/5
+0/50-8G/50-8g.gabc using kpsewhich on input line 1
+Module gregoriotex Info: Looking in  on input line 1
+Module gregoriotex Info: Found 50-8g-6_0_0.gtex directly on input line 1
+
+(./50-8g-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/50-8g.tex
+[31
+
+]
+Overfull \hbox (5.75081pt too wide) in paragraph at lines 37--38
+[]\TU/Minion3(0)/m/n/10 20. Tunc ac-cep-tá-bis sa-cri-fí-cium ju-stí-tiæ, ob
+-la-tió-nes, et ho-lo\TU/Minion3(0)/b/n/10 cáus\TU/Minion3(0)/m/n/10 ta:
+ []
+
+)
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found an--dominus_tamquam_ovis--solesmes_1961.gabc in .
+/antiphons/ on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found an--dominus_tamquam_ovis--solesmes_1961-6_0_0.gte
+x directly on input line 3
+ (./an--dominus_tamquam_ovis--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Looking in ./antiphons/ on input line 3
+Module gregoriotex Info: Found 89-2.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/8
+9/89-2/89-2.gabc using kpsewhich on input line 3
+Module gregoriotex Info: Looking in  on input line 3
+Module gregoriotex Info: Found 89-2-6_0_0.gtex directly on input line 3
+ (./89-2-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+[32]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) (/Users/frbarnes
+/Library/texmf/tex/psalms/ng/89-2.tex [33])
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found an--contritum_est_cor_meum--solesmes.gabc in ./an
+tiphons/ on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found an--contritum_est_cor_meum--solesmes-6_0_0.gtex d
+irectly on input line 5
+
+(./an--contritum_est_cor_meum--solesmes-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Looking in ./antiphons/ on input line 5
+Module gregoriotex Info: Found 35-8g.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/3
+5/35-8G/35-8g.gabc using kpsewhich on input line 5
+Module gregoriotex Info: Looking in  on input line 5
+Module gregoriotex Info: Found 35-8g-6_0_0.gtex directly on input line 5
+ (./35-8g-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+(/Users/frbarnes/Library/texmf/tex/psalms/ng/35-8g.tex [34])
+Module gregoriotex Info: Looking in  on input line 8
+Module gregoriotex Info: Looking in ./antiphons/ on input line 8
+Module gregoriotex Info: Found an--exhortatus_es--solesmes_1961.gabc in ./antiph
+ons/ on input line 8
+Module gregoriotex Info: Looking in  on input line 8
+Module gregoriotex Info: Found an--exhortatus_es--solesmes_1961-6_0_0.gtex direc
+tly on input line 8
+
+(./an--exhortatus_es--solesmes_1961-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 8
+Module gregoriotex Info: Looking in ./canticles/ on input line 8
+Module gregoriotex Info: Found Canticum Moysis (Exod)-4A.gabc in ./canticles/ on
+ input line 8
+Module gregoriotex Info: Looking in  on input line 8
+Module gregoriotex Info: Found Canticum-Moysis-(Exod)-4A-6_0_0.gtex directly on 
+input line 8
+
+(./Canticum-Moysis-(Exod)-4A-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+("./canticles/Canticum Moysis (Exod)-4A.tex" [35]) [36]
+Module gregoriotex Info: Looking in  on input line 10
+Module gregoriotex Info: Looking in ./antiphons/ on input line 10
+Module gregoriotex Info: Found an--oblatus_est--solesmes.gabc in ./antiphons/ on
+ input line 10
+Module gregoriotex Info: Looking in  on input line 10
+Module gregoriotex Info: Found an--oblatus_est--solesmes-6_0_0.gtex directly on 
+input line 10
+
+(./an--oblatus_est--solesmes-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 10
+Module gregoriotex Info: Looking in ./antiphons/ on input line 10
+Module gregoriotex Info: Found 146-2.gabc at
+(gregoriotex)            /Users/frbarnes/Library/texmf/tex/psalms/compilations/1
+46/146-2/146-2.gabc using kpsewhich on input line 10
+Module gregoriotex Info: Looking in  on input line 10
+Module gregoriotex Info: Found 146-2-6_0_0.gtex directly on input line 10
+ (./146-2-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+(/Users/frbarnes/Library/texmf/tex/psalms/ng/146-2.tex [37])
+Module gregoriotex Info: Processing gabc snippet... on input line 16
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Processing gabc snippet... on input line 16
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Looking in  on input line 18
+Module gregoriotex Info: Looking in ./antiphons/ on input line 18
+Module gregoriotex Info: Found an--traditor_autem--solesmes.gabc in ./antiphons/
+ on input line 18
+Module gregoriotex Info: Looking in  on input line 18
+Module gregoriotex Info: Found an--traditor_autem--solesmes-6_0_0.gtex directly 
+on input line 18
+
+(./an--traditor_autem--solesmes-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 18
+Module gregoriotex Info: Looking in ./canticles/ on input line 18
+Module gregoriotex Info: Found Benedictus-solemn1g.gabc in ./canticles/ on input
+ line 18
+Module gregoriotex Info: Looking in  on input line 18
+Module gregoriotex Info: Found Benedictus-solemn1g-6_0_0.gtex directly on input 
+line 18
+ (./Benedictus-solemn1g-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+(./canticles/Benedictus-solemn1g.tex [38
+Module gregoriotex Info: saving e1e1d43c1f239892109ab6f32d8459f6958421ea.1, 1 [1
+] (15544689,6462464) on input line 1
+Module gregoriotex Info: saving e1e1d43c1f239892109ab6f32d8459f6958421ea.1, 1 [2
+] (16973312,6462464) on input line 1
+Module gregoriotex Info: computed length for e1e1d43c1f239892109ab6f32d8459f6958
+421ea.1, 1: 1428623 on input line 1
+])
+Module gregoriotex Info: Looking in  on input line 20
+Module gregoriotex Info: Looking in ./christus/ on input line 20
+Module gregoriotex Info: Found christus-1.gabc in ./christus/ on input line 20
+Module gregoriotex Info: Looking in  on input line 20
+Module gregoriotex Info: Found christus-1-6_0_0.gtex directly on input line 20
+ (./christus-1-6_0_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)) [39]
+(./temp/maundyThursday.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 31124 strings out of 478285
+ 305815,1977958 words of node,token memory allocated
+ 2557 words of node memory still in use:
+   17 hlist, 3 vlist, 9 rule, 3 local_par, 34 glue, 15 kern, 6 penalty, 11 glyph
+, 336 attribute, 204 glue_spec, 51 attribute_list, 2 write, 1 user_defined nodes
+
+   avail lists: 1:3,2:30957,3:3624,4:109,5:7514,6:527,7:9400,8:2,9:8690,10:20,11
+:723
+ 50317 multiletter control sequences out of 65536+600000
+ 62 fonts using 17332703 bytes
+ 87i,12n,97p,1010b,3634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Library/Fonts/Minion3-Italic.otf></usr/local/texlive/2023/texmf-dist/fonts/tru
+etype/public/gregoriotex/greciliae-hollow.ttf></usr/local/texlive/2023/texmf-dis
+t/fonts/truetype/public/gregoriotex/greciliae-hole.ttf></usr/local/texlive/2023/
+texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/local/texlive/20
+23/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></Library/Fonts/Mi
+nion3-Bold.otf></Library/Fonts/Minion3-Regular.otf></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on maundyThursday.pdf (39 pages, 177396 bytes).
+
+PDF statistics: 180 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

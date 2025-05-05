@@ -1,0 +1,30 @@
+\documentclass[statementpaper,10pt,openright,openbib]{memoir}
+\title{Good Friday}
+
+\usepackage{tenebrae}
+
+\begin{document}
+\pagenumbering{Alpha}
+
+\import{.}{title.tex}
+
+\frontmatter
+
+\mainmatter
+
+\chapter*{Matins}
+
+\section*{In 1\textsuperscript{st} Nocturn}
+\import{./goodFriday/}{matins1.tex}
+
+\section*{In 2\textsuperscript{nd} Nocturn}
+\import{./goodFriday/}{matins2.tex}
+
+\section*{In 3\textsuperscript{rd} Nocturn}
+\import{./goodFriday/}{matins3.tex}
+
+\chapter*{Laudes}
+
+\import{./goodFriday/}{laudes.tex}
+
+\end{document}

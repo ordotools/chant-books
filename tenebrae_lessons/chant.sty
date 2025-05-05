@@ -1,0 +1,38 @@
+\ProvidesPackage{chant}
+
+%%% GREGORIOTEX %%%
+\RequirePackage[autocompile]{gregoriotex} % make this an option
+\gresetlinecolor{gregoriocolor}
+\gresetinitiallines{1}
+\gresetannotationvalign{bottom}
+\grechangestyle{modeline}{\small} \grechangestyle{annotation}{\small}
+
+\grechangestaffsize{23}
+\grechangedim{spacebeneathtext}{2ex}{scalable}
+
+\RequirePackage[latin]{babel}
+\RequirePackage{fontspec}
+\RequirePackage[T1]{fontenc}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Minion3}
+% \RequirePackage{lettrine}
+% \renewcommand{\LettrineFontHook}{\fontfamily{lmr}\color{gregoriocolor}}
+
+\newcommand{\red}[1]{
+	{\color{gregoriocolor}#1}
+}
+
+\newcommand{\black}[1]{
+	{\color{black}#1}
+}
+
+\newcommand{\vbar}[0]{
+	{\color{gregoriocolor}\Vbar.}
+}
+
+\newcommand{\rbar}[0]{
+	{\color{gregoriocolor}\Rbar.}
+}
+
+\setlength{\parindent}{0pt}
+\gresetbracerendering{font}
