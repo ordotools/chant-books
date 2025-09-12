@@ -1,0 +1,105 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>First Station</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// --></script>
+</head>
+
+<body bgcolor="#5B005B" onload="FP_preloadImgs(/*url*/'button9.jpg', /*url*/'buttonA.jpg')">
+
+<p>&nbsp;</p>
+<div align="center">
+  <table border="0" cellspacing="1" style="border-collapse: collapse" width="35%" height="248" cellpadding="12" bgcolor="#FFFFCC" id="table1" background="../../images/viacrucisback.jpg" webstripperlinkwas="../../images/viacrucisback.jpg">
+    <tr>
+      <td width="100%" valign="top" height="38">
+      &nbsp;</td>
+    </tr>
+    <tr>
+      <td width="100%" valign="top" height="38" bgcolor="#800080">
+      <p align="center"><strong style="font-weight: 400">
+<font face="Old English Text MT" size="6" color="#FFFFCC">The First Station</font></strong></td>
+    </tr>
+    <tr>
+      <td width="100%" valign="top" height="38">
+      <p align="center"><font size="4" color="#800080"><b>Jesus is Condemned to 
+      Death</b></font></td>
+    </tr>
+    <tr>
+      <td width="100%" valign="top" height="38">
+      <p align="center">
+      <img border="0" src="../../images/station1.jpg" webstripperlinkwas="../../images/station1.jpg" width="204" height="381"></td>
+    </tr>
+    <tr>
+      <td width="100%" valign="top" height="38">
+      <b><font color="#C6171C">V.</font></b>&nbsp; We adore thee, O Christ, and 
+      we bless thee.<br>
+      <b><font color="#C6171C">R.</font></b>&nbsp; Because by thy Holy Cross 
+      thou hast redeemed the world.</td>
+    </tr>
+    <tr>
+      <td width="91%" valign="top" height="1">
+      <p align="justify">AND straightway in the morning the chief priests held a 
+      consultation with the elders and scribes and the whole council, and bound 
+      Jesus, and carried him away, and delivered him to Pilate. And Pilate asked 
+      him, Art thou the King of the Jews? And he answering said unto him, Thou 
+      sayest it. And the chief priests accused him of many things; but he 
+      answered nothing. And Pilate asked him again, saying, Answerest thou 
+      nothing? Behold how many things they witness against thee. But Jesus yet 
+      answered nothing; so that Pilate marvelled.</td>
+    </tr>
+    <tr>
+      <td width="91%" valign="top" height="43">
+      <b><font color="#C6171C">V.</font></b>&nbsp; God spared not his own Son.<br>
+      <font color="#C6171C"><b>R.</b>&nbsp; </font>But delivered him up for us 
+      all.</td>
+    </tr>
+    <tr>
+      <td width="91%" valign="top" height="43">
+      Let us pray.<p>O GOD, who in the life-giving passion of thy Son hast 
+      taught us that only by walking in the way of the Cross may we attain to 
+      eternal joys: mercifully grant that as in deep devotion we follow the same 
+      thy Son Jesus Christ on the road to Calvary, so we may also share in his 
+      everlasting victory. Who liveth and reigneth world without end. Amen.</td>
+    </tr>
+    <tr>
+      <td width="91%" valign="top" height="43">
+      <b><font color="#C6171C">HYMN</font></b><p>O how sad and sore distressèd<br>
+      Then was she that Mother blessèd<br>
+      Of the sole-begotten Son.</td>
+    </tr>
+    <tr>
+      <td width="91%" valign="top" height="43">
+      <p align="center"><a href="2.htm" webstripperlinkwas="2.htm">
+      <img border="0" id="img1" src="button8.jpg" webstripperlinkwas="button8.jpg" height="20" width="100" alt="Second Station" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button9.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button8.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonA.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button9.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Second Station"></a><br>
+&nbsp;</td>
+    </tr>
+  </table>
+  </div>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
