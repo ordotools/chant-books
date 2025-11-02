@@ -6,25 +6,72 @@
 % \SetPsalmGloriaPatri{true}
 \SetPsalmDropcap{true}
 
+
+
+
+
+\newcommand\psalmFour{\medskip\rubric{\black{\P} Quando ad Laudes dictus fuerit \black{Ps. 50., Miserere,} hic subjungitur \black{Ps. 46.}}\\}
+
+
+
+% \usepackage{verse}
+\usepackage{poetry}
+\usepackage{multicol}
+
+
+
 \begin{document}
 
-\chapter*{Ordinarium Divini Officii ad Primam}
+% \chapter*{Ordinarium Divini Officii ad Primam}
+\SuperFeria{Ordinarium Divini Officii ad Primam}
+
+\vfill
 
 Pater. Ave. Credo.
 
-\greannotation{\color{red}\vbar}
+% \greannotation{\vbar}
 \gabcsnippet{(c3) De(h)us(h) <c><v>\grecross</v></c>(,) in(h) ad(h)ju(h)tó(i)ri(h)um(h) me(h)um(h) in(h)tén(g)de.(h.) (::)
 <c><sp>R/</sp>.</c> Dó(h)mi(h)ne,(h) ad(h) ad(h)ju(h)ván(h)dum(h) me(h) fe(h)stí(g)na.(h) (:)
 Gló(h)ri(h)a(h) Pa(h)tri,(h) et(h) Fí(h)li(h)o,(h) (,) et(h) Spi(h)rí(h)tu(h)i(h) San(g)cto.(h) (:)
 Si(h)cut(h) er(h)at(h) in(h) prin(h)cí(h)pi(h)o,(h) et(h) nunc,(h) et(h) sem(h)per,(h) (,) et(h) in(h) sǽ(h)cu(h)la(h) sæ(h)cu(h)ló(h)rum.(h) A(g)men.(h)
 (::) Al(h)le(i)lú(hg~)ja.(g) (::) <c><i>Vel:</i></c>() Laus(h) ti(h)bi,(h) Dó(h)mi(h)ne,(h) Rex(h) æ(h)tér(h)næ(i) gló(h)ri(h)æ.(g) (::)}
 
-\section*{Hymnus}
+\newpage
 
-\smallskip
+{\centering\bfseries\scshape\Large Hymnus\par}
+
+% \smallskip
 1. Tonus in Dominicis per Annum et minoribus Festis.
 \nopagebreak
-\gregorioscore{jamLucis_dominicis.gabc}
+% \gregorioscore{jamLucis_dominicis.gabc}
+\gregorioscore{jamLucis_sunday_1verse.gabc}
+
+\begin{multicols}{2}
+
+\poemlinenumsfalse
+\begin{poem}
+	Linguam refrénans témperet,\\
+	Ne litis horror ínsonet:\\
+	Visum fovéndo cóntegat,\\
+	Ne vanitátes háuriat.\\!
+	Sint pura cordis íntima,\\
+	Absístat et vecórdia;\\
+	Carnis terat supérbiam\\
+	Potus cibíque párcitas.\\!
+	Ut, cum dies abscésserit,\\
+	Noctémque sors redúxerit,\\
+	Mundi per abstinéntiam\\
+	Ipsi canámus glóriam.\\!
+	Deo Patri sit glória,\\
+	Ejúsque soli Fílio,\\
+	Cum Spíritu Paráclito,\\
+	Nunc et per omne sǽculum.\\
+	Amen.\\-
+\end{poem}
+
+% \normalfont
+
+\end{multicols}
 
 \medskip
 2. Tonus in Feriis per Annum et Festis Simplicibus.
@@ -63,8 +110,16 @@ In Officio feriali:\\
 \hrule
 \medskip
 
+\rubric{Post enuntiatam Antiphonam dicuntur tres Psalmi Officio diei congruentes.}
+
+	
+\grecommentary{Temp. Quad.}
+\gregorioscore{an--vivo_ego--solesmes}
+
+\grecommentary{Temp. Pasch.}
+\gregorioscore{an--alleluia._(sund._p._t._at_prime)--solesmes_1961.1}
+
 \rubric{
-	Post enuntiatam Antiphonam dicuntur tres Psalmi Officio diei congruentes.\\
 	Quando autem adhibetur posterius Laudum Schema, Psalmus, in priori Ludeum ferialium schemate omissus, ad Primam Feri\ae\ currentis post alios Psalmos resumitur.\\
 	Repetita post ultimum Psalmum integre Antiphona, conveniens dicitur Capitulum; nimirum:
 }
@@ -75,165 +130,230 @@ In Officio feriali:\\
 	In omnibus Dominicis, etiam antidipatis, in Officio cujuslibet Festi vel Octav\ae, ac sanct\ae\ Mari\ae\ in Sabbato:
 }
 
-% \capitulum{Regi s\ae cul\'orum imort\'ali et invis\'ibili, \dagger\ soli Deo ho\textit{nor et} \textbf{gl\'o}ria * in s\ae cula s\ae cul\'orum \textbf{A}men.}{1. Tim. 1:17.}
+
+\capitulum{Regi s\ae cul\'orum imort\'ali et invis\'ibili, \dagger\ soli Deo ho\textit{nor et} \textbf{gl\'o}ria * in s\ae cula s\ae cul\'orum \textbf{A}men.}{1. Tim. 1:17.}
 
 \smallskip
 
 \rubric{In omnibus autem Feriis et Vigiliis communibus:}
 
-% \capitulum{Pacem et verit\'a\textit{tem di}\textbf{l\'i}gite, * ait D\'ominus om\textbf{n\'i}potens.}{Zach. 8:19.}
+\capitulum{Pacem et verit\'a\textit{tem di}\textbf{l\'i}gite, * ait D\'ominus om\textbf{n\'i}potens.}{Zach. 8:19.}
 
 \medskip
 
 Resp. breve per Annum.\nopagebreak
 
+% TODO: align the text for this
 \gregorioscore{rb--christe_fili_dei_vivi--vatican.gabc}
 
+\rubric{Sic dicuntur resp. brevia per toum annum, nisi aliter notetur.}
 
-\cycle{Feria II}
+\gresetinitiallines{0}
 
-\grecommentary{Per Annum.}
-\greannotation{4.E}
-\gabcsnippet{(c4) In(ec)no(e)cens(f) ma(g)ni(f)bus.(ghg) (::) }
+\PrubricSkip{A Nativitate Domini usque ad Epiphaniam, in Festo Corporis Christi et per octavam, in Festis B.M.V. per annum and infra eorum Octavas, loco \black{\vbar Qui sedes,} dicitur:}
 
-\medskip
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(h) na(ixhi)tus(g) es(g) (,) de(g) Ma(h)rí(g)a(f) Vír(g)gi(gh)ne.(hg) (::)}
+
+\PrubricSkip{In Epiphania et per Octavam, et in Transfiguratione Domini:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(h) ap(h)pa(ixhi)ru(g)í(g)sti(f) hó(g)di(gh)e.(hg) (::)}
+
+\PrubricSkip{In Festo Sanctæ Familiæ Jesu, Mariæ, Joseph:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(ixhi) Ma(h)rí(h)æ(h) et(h) Jo(gh)seph(g) súb(h)di(g)tus(g) fu(f)í(gh)sti.(hg) (::)}
+
+\PrubricSkip{In Festo Sacratissimi Cordis Jesu:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(h) Cór(ixhi)de(g) fún(g)dis(f) grá(g)ti(gh)am.(hg) (::)}
+
+\PrubricSkip{In Festo pretiosissimi Sanguinis Domini nostri Jesu Christi:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(ixhi) tu(h)o(h) nos(h) sán(gh)gui(g)ne(g) (,) re(g)de(f)mí(gh)sti.(hg) (::)}
+
+\PrubricSkip{In Festo Septem Dolorum beatæ Mariæ Virginis mense Septembri et Tempore Passiones:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(h) pas(ixhi)sus(g) es(g) (,) prop(g)ter(g) nos(h)tram(g) sa(f)lú(gh)tem.(hg) (::)}
+
+\PrubricSkip{In Festo Domini Nostri Jesu Christi Regis:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(h) pri(h)má(ixhi)tum(g) (,) in(g) óm(h)ni(g)bus(f) te(gh)nes.(hg) (::)}
+
+\gresetinitiallines{1}
+\gregorioscore{rb--christe_fili_dei_vivi_(tempore_adventus)--solesmes}
+
+\verseResponse{Exsúrge Christe, ádjuva nos.}{Et líbera nos propter nomen tuum.}
+
+\PrubricSkip{In Festo Immaculatæ Conceptionis B.M.V. et per ejus Octavam (non vero in Dominica infra Octavam vel die Octava occurrente) dicitur:}
+
+\gresetinitiallines{0}
+\gabcsnippet{(f3) <c><sp>V/</sp>.</c>  Qui(e) na(fh)tus(h) es(h) (,) de(h) Ma(h)rí(h)a(hf) Vír(g)gi(h)ne.(i) (::)}
+
+\gresetinitiallines{1}
+
+\gregorioscore{rb--christe_fili_dei_vivi_(tempore_paschali)--solesmes}
+
+\verseResponse{Exsúrge Christe, ádjuva nos, allelúja.}{Et líbera nos propter nomen tuum, allelúja.}
+
+\PrubricSkip{Ab Ascensione usque ad Pentecosten, dicitur:}
+
+\gresetinitiallines{0}
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(f) scán(g)dis(f) su(f)per(e) sí(g)de(g)ra.(h) (::)}
+
+\PrubricSkip{in Festo Pentecostes et per Octavam, dicitur:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(f) se(g)des(f) ad(f) déx(f)ter(f)am(e) Pa(g)tris.(h) (::)}
+
+\PrubricSkip{In Festis B.M.V. infra Tempus Paschale occurrentibus, dicitur:}
+
+\gabcsnippet{(c4) <c><sp>V/</sp>.</c> Qui(f) na(g)tus(f) es(f) (,) de(f) Ma(f)rí(f)a(e) Vír(g)gi(g)ne.(h) (::)}
+
+
+%------------------------------------------------------------------------------------------------------------------------------
+% Preces...
+%------------------------------------------------------------------------------------------------------------------------------
+
+\rubric{Quendo fit Officium de Dominica ut in Psalterio, nisi occurrat commemoratio Duplicis aut octavæ, diuntus sequentes \black{Preces Dominicales.}}
+
+\dropcap{Kýrie, eléison. Christe, eléison. Kýrie, eléison.\\
+Pater Noster. \inlinerubric{secreto usque ad}}\\
+\verseResponse{Et ne nos indúcas in tentatiónem:}{Sed líbera nos a malo.}
+Credo in Deum. \inlinerubric{secreto usque ad}\\
+\verseResponse{Carnis resurrectiónem.}{Vitam ætérnam. Amen.}
+\verseResponse{Et ego ad te, Dómine, clamávi.}{Et mane oráto mea prævéniet te.}
+\verseResponse{Repleátur os meum laude.}{Ut cantem glóriam tuam, tota die magnitúdinem tuam.}
+\verseResponse{Dómine, avérte fáciem tuam a peccátis meis.}{Et omnes iniquitátes meas dele.}
+\verseResponse{Cor mundum crea in me, Deus.}{Et spíritum rectum ínnova in viscéribus meis.}
+\verseResponse{Ne projícias me a fácie tua.}{Et spíritum sanctum tuum ne áuferas a me.}
+\verseResponse{Redde mihi lætítiam salutáris tui.}{Et spíritu principáli confírma me.}
+
 \hrule
-\medskip
 
-\begin{minipage}[t]{0.45\textwidth}
-	\grecommentary{T.Q.}
-	\greannotation{3.b}
-	\gabcsnippet{(c4) Vi(j)vo(h) e(ghj)go.(j) (::) }
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-	\grecommentary{T.P.}
-	\greannotation{3.b}
-	\gabcsnippet{(c4) Al(g)le(j)lu(j)ja.(i) (::) }
-\end{minipage}
+\PrubricSkip{In Feriis autem Adventus, Quadragesimæ, Passionis et Quatuor
+Temporum Septembris, atque in Vigiliis communibus, si fiat Officium de Feria,
+post Responsorium breve dicuntur flexis genibus sequentes \black{Preces
+Feriales,} qui alias ne in Feriali quidem Officio adhibentur.}
 
-\medskip
+\verseResponse{Éripe me, Dómine, ab hómine malo.}{A viro iníquo éripe me.}
+\verseResponse{Éripe me de inimícis meis, Deus meus.}{Et ab insurgéntibus in me líbera me.}
+\verseResponse{Éripe me de operántibus iniquitátem.}{Et de viris sánguinum salva me.}
+\verseResponse{Sic psalmum dicam nómini tuo in sǽculum sǽculi.}{Ut reddam vota mea de die in diem.}
+\verseResponse{Exáudi nos, Deus, salutáris noster.}{Spes ómnium fínium terræ, et in mari longe.}
+\verseResponse{Deus in adjutórium meum inténde.}{Dómine, ad adjuvándum me festína.}
+\verseResponse{Sanctus Deus, Sanctus fortis, Sanctus immortális.}{Miserére nobis.}
+\verseResponse{Bénedic, ánima mea, Dómino.}{Et ómnia, quæ intra me sunt, nómini sancto ejus.}
+\verseResponse{Bénedic, ánima mea, Dómino.}{Et noli oblivísci omnes retributiónes ejus.}
+\verseResponse{Qui propitiátur ómnibus iniquitátibus tuis.}{Qui sanat omnes infirmitátes tuas.}
+\verseResponse{Qui rédimit de intéritu vitam tuam.}{Qui corónat te in misericórdia et miseratiónibus.}
+\verseResponse{Qui replet in bonis desidérium tuum.}{Renovábitur ut áquilæ juvéntus tua.}
+
 \hrule
-\medskip
 
-\psalmtitle{23}
-\psalm{23}{4E}
+\verseResponse{Adjutórium nostrum \cross in nómine Dómini.}{Qui fecit cælum et terram.}
 
-\psalmtitle{18 I}
-\psalm{18.1}{4E}
+\rubric{Deinde Hebdomadarius facit Confessionem, quæ tota dicitur cum
+\vbar\vbar sequentibus voce recta et paulisper depressa.}
 
-\psalmtitle{18 II}
-\psalm{18.2}{4E}
+\rubric{Chorus respondet:}
 
-\rubric{\black{\P} Quando ad Laudes dictus fuerit \black{Ps. 50., Miserere,} hic subjungitur \black{Ps. 46.}}
+\dropcap{Misereátur tui omnípotens Deus, et dimíssis peccátis tuis, perdúcat te
+ad vitam ætérnam.}\\
+\amen
 
-\psalmtitle{46}
-\psalm{46}{4E}
+\rubric{Deinde repetit Confessionem:}
 
-\gresetinitiallines{0}
-\grecommentary{Per Annum.}
-\gregorioscore{an--innocens_manibus--solesmes}
+\dropcap{Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli
+Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus
+Sanctis et tibi pater, quia peccávi nimis, cogitatióne, verbo et ópere: pectus
+mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper
+Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos
+Apóstolos Petrum et Paulum, omnes Sanctos et te pater, oráre pro me ad Dóminum
+Deum nostrum.}
 
-\gresetinitiallines{0}
-\grecommentary{Temp. Quad.}
-\gregorioscore{an--vivo_ego--solesmes}
+\rubric{Facta Confessione a Choro, Hembdomadarius dicit:}
 
-\gresetinitiallines{0}
-\grecommentary{Temp. Pasch.}
-\gregorioscore{an--alleluia._(sund._p._t._at_prime)--solesmes_1961.1}
+\dropcap{Misereátur nostri omnípotens Deus, et dimíssis peccátis nostris, perdúcat nos
+ad vitam ætérnam.}\\
+\amen
 
-\cycle{Feria III}
+\dropcap{Indulgéntiam, \cross\ absolutiónem et remissiónem peccatórum nostrórum tríbuat nobis
+omnípotens et miséricors Dóminus.}\\
+\amen
 
-\grecommentary{Per Annum.}
-\greannotation{4.E}
-\gabcsnippet{(c4) In(ec)no(e)cens(f) ma(g)ni(f)bus.(ghg) (::) }
+\verseResponse{Dignáre, Dómine, die isto.}{Sine peccáto nos custodíre.}
+\verseResponse{Miserére nostri, Dómine.}{Miserére nostri.}
+\verseResponse{Fiat misericórdia tua, Dómine, super nos.}{Quemádmodum sperávimus in te.}
+\verseResponse{Dómine, exáudi oratiónem meam.}{Et clamor meus ad te véniat.}
 
-\medskip
 \hrule
+
+\dv
+
+\oration{Dómine Deus omnípotens, qui ad princípium hujus diéi nos perveníre
+fecísti: tua nos hódie salva virtúte; ut in hac die ad nullum declinémus
+peccátum, sed semper ad tuam justítiam faciéndam nostra procédant elóquia,
+dirigántur cogitatiónes et ópera. Per Dóminum nostrum Jesum Christum, Fílium
+tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia
+sǽcula sæculórum.}
+
+\dv
+
+\gabcsnippet{(c3) Be(h)ne(h)di(h)cá(hi)mus(i) Dó(i)mi(i)no(ivHG) (::) De(i)o(i) grá(i)ti(i)as.(ivHG) (::)}
+
+\rubric{Deinde legitur Martyrologium et in fine respondetur: \black{Deo Grátias.} Postea Hebdomadarius dicit:}
+
+\verseResponse{Pretiósa in conspéctu Dómini.}{Mors Sanctórum ejus.}
+
+\pretioOration{Sancta María et omnes Sancti intercédant pro nobis ad Dóminum,
+ut nos mereámur ab eo adjuvári et salvári, qui vivit et regnat in sǽcula
+sæculórum.}
+
+\verseResponse{Deus in adjutórium meum inténde.}{Dómine ad adjuvándum me festína.}
+\rubric{Et dicit ter; ultimo additur:}
+
+\gloriapatri
+
+Kyrie eléison. Christe eléison. Kyrie eléison.\\
+Pater Noster. \inlinerubric{secreto usque ad}\\
+\verseResponse{Et ne nos indúcas in tentatiónem:}{Sed líbera nos a malo.}
+\verseResponse{Réspice in servos tuos, Dómine, et in ópera tua, et dírige fílios eórum.}{Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.}
+\gloriapatri
+
+\oration{Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus,
+Rex cæli et terræ, hódie corda et córpora nostra, † sensus, sermónes et actus
+nostros in lege tua, et in opéribus mandatórum tuórum: * ut hic et in ætérnum, te
+auxiliánte, salvi et líberi esse mereámur, Salvátor mundi: Qui vivis et regnas
+in sǽcula sæculórum.}
+
+\vbar Jube domne benedícere.\\
+\inlinerubric{Benedictio.} Dies et actus nostros * in sua pace dispónat Dóminus omnípotens. \amen
+
 \medskip
+{\centering\bfseries\scshape\Large Lectio Brevis\par}
+% Lectio Brevis (TODO: format title)
 
-\begin{minipage}[t]{0.45\textwidth}
-	\grecommentary{T.Q.}
-	\greannotation{3.b}
-	\gabcsnippet{(c4) Vi(j)vo(h) e(ghj)go.(j) (::) }
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-	\grecommentary{T.P.}
-	\greannotation{3.b}
-	\gabcsnippet{(c4) Al(g)le(j)lu(j)ja.(i) (::) }
-\end{minipage}
+\rubric{Ad absolutionem Capituli, in Dominicis er Feriis per Annum, a die 14.
+Januarii usque ad Sabbatum ante Dominicam primam Quadragesimæ, a Feria II.
+usque ad Feriam IV. post Festum Ss. Trinitatis, et a Feria VI. post Octavam Ss.
+Corporis Christi usque ad Sabbatum ante Adventum inclusive:}
 
-\medskip
-\hrule
-\medskip
+\lectioBrevis{Dóminus autem dírigat corda et córpora nostra in cariteate Dei, * et patiéntia Christi. Tu autem Dómine * miserére nobis.}{Thess. 3. 5.}
 
-\psalmtitle{24 I}
-\psalm{24.1}{8c}
+\verseResponse{Adjutórium nostrum in nómine Dómini.}{Qui fecit cælum et terram.}
+\verseResponse{Benedícite.}{Deus.}
+\verseResponse{\cross Dominus nos benedícat, † et ab omni malo deféndat, * et ad vitam perdúcat ætérnam. Et fidélium ánimæ per misericórdiam Dei requiéscant in pace.}{Amen.}
 
-\psalmtitle{24 II}
-\psalm{24.2}{8c}
+\rubric{Post \black{Pater Noster,} totum secreto, dicitur:}\\
+\rubric{\black{\inlineVerseResponse{Dóminus det nobis suam pacem.}{Et vitam ætérnam. Amen.}}}
 
-\psalmtitle{24 III}
-\psalm{24.3}{8c}
+\rubric{Deinde dicitur una ex Antiphonis B.M.V., et in fine:}\\
+\rubric{\black{\inlineVerseResponse{\cross Divínum auxílium máneat semper nobíscum.}{Amen.}}}
 
-\psalmtitle{23}
-\psalm{95}{8c}
+%------------------------------------------------------------------------------------------------------------------------------
+% Marian antiphons...
+%------------------------------------------------------------------------------------------------------------------------------
 
-\gresetinitiallines{0}
-\grecommentary{Per Annum.}
-\gregorioscore{an--deus_meus_in_te--solesmes}
+% \include{marianantiphons}
 
-\gresetinitiallines{0}
-\grecommentary{Temp. Quad.}
-\gregorioscore{an--vivo_ego--solesmes}
-
-\gresetinitiallines{0}
-\grecommentary{Temp. Pasch.}
-\gregorioscore{an--alleluia._(sund._p._t._at_prime)--solesmes_1961.1}
-
-\feria{Feria IV}
-
-\psalmtitle{25}
-\psalm{25}{1g}
-\psalmtitle{51}
-\psalm{51}{1g}
-\psalmtitle{52}
-\psalm{52}{1g}
-\psalmtitle{96}
-\psalm{96}{1g}
-
-\feria{Feria V}
-
-\psalmtitle{23}
-\psalm{22}{7a}
-\psalmtitle{23}
-\psalm{71}{7a} % this should be part 1
-\psalmtitle{23}
-\psalm{71}{7a} % this should be part 2
-\psalmtitle{23}
-\psalm{97}{7a}
-
-\feria{Feria VI}
-
-\psalmtitle{23}
-\psalm{21}{2} % this should be part 1
-\psalmtitle{23}
-\psalm{21}{2} % this should be part 2
-\psalmtitle{23}
-\psalm{21}{2} % this should be part 3
-\psalmtitle{23}
-\psalm{98}{2}
-
-\feria{Sabbato}
-
-\psalmtitle{23}
-\psalm{93}{8G} % this should be part 1
-\psalmtitle{23}
-\psalm{93}{8G} % this should be part 2
-\psalmtitle{23}
-\psalm{107}{8G}
-\psalmtitle{23}
-\psalm{149}{8G}
+% \include{ferias}
 
 \end{document}
