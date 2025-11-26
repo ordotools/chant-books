@@ -1,4 +1,4 @@
-PWD /Users/frbarnes/Desktop/martyrology_book
+PWD /Users/frbarnes/github/chant-books/martyrology
 INPUT /usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./martyrology.tex
 OUTPUT martyrology.log

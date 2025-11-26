@@ -170,6 +170,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 OUTPUT main-iofl.idx
 INPUT ./main.aux
+INPUT ./lectiobrevis.aux
 OUTPUT main.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -243,4 +244,7 @@ INPUT main.gsniplog
 OUTPUT main.gsnippet
 INPUT main.gtmp
 INPUT main.gsniplog
+OUTPUT lectiobrevis.aux
+INPUT ./lectiobrevis.tex
 INPUT ./main.aux
+INPUT ./lectiobrevis.aux

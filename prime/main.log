@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.23)  1 NOV 2025 15:27
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.23)  12 NOV 2025 19:54
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1163,30 +1163,31 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \openout5 = main-iofl.idx
 
 Writing index file main-iofl.idx
-) (./main.aux)
+) (./main.aux (./lectiobrevis.aux))
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-3.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+4.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1216,72 +1217,72 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
-LaTeX Font Info:    Redeclaring math accent \check on input line 23.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 24.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 24.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 24.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 24.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 24.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 24.
+LaTeX Font Info:    Redeclaring math accent \check on input line 24.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 24.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 24.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 24.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 24.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 23.
+(Font)              `operators' in the math version `normal' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Minion3(0)/m/n on input line 23.
+(Font)                  OT1/cmr/m/n --> TU/Minion3(0)/m/n on input line 24.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 23.
+(Font)              `operators' in the math version `bold' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Minion3(0)/m/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> TU/Minion3(0)/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Minion3(0)/m/n --> TU/Minion3(0)/m/n on input line 2
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Minion3(0)/m/it on input line 23.
+(Font)                  OT1/cmr/m/it --> TU/Minion3(0)/m/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Minion3(0)/b/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> TU/Minion3(0)/b/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Minion3(0)/m/n --> TU/Minion3(0)/b/n on input line 2
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Minion3(0)/b/it on input line 23.
+(Font)                  OT1/cmr/bx/it --> TU/Minion3(0)/b/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
-LaTeX Info: Redefining \microtypecontext on input line 23.
-Package microtype Info: Applying patch `item' on input line 23.
-Package microtype Info: Applying patch `toc' on input line 23.
-Package microtype Info: Applying patch `eqnum' on input line 23.
-Package microtype Info: Applying patch `footnote' on input line 23.
-Package microtype Info: Applying patch `verbatim' on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 24.
+Package microtype Info: Applying patch `item' on input line 24.
+Package microtype Info: Applying patch `toc' on input line 24.
+Package microtype Info: Applying patch `eqnum' on input line 24.
+Package microtype Info: Applying patch `footnote' on input line 24.
+Package microtype Info: Applying patch `verbatim' on input line 24.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 23.
+LaTeX Info: Redefining \showhyphens on input line 24.
 Package microtype Info: Tracking enabled.
 Package microtype Info: Using default tracking set `smallcaps'.
 Package microtype Info: No adjustment of spacing.
@@ -1291,8 +1292,8 @@ luaotfload | features : unsupported font option: nil
 luaotfload | features : unsupported font option: nil
 Inserting `luaotfload.letterspace' in `pre_linebreak_filter'.
 Inserting `luaotfload.letterspace' in `hpack_filter'.
-Module gregoriotex Info: Processing gabc snippet... on input line 37
-Module gregoriotex Info: will use gregorio on input line 37
+Module gregoriotex Info: Processing gabc snippet... on input line 38
+Module gregoriotex Info: will use gregorio on input line 38
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
@@ -1304,17 +1305,17 @@ Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
 LaTeX Font Info:    Font shape `TU/Minion3(0)/m/sl' in size <10> not available
 (Font)              Font shape `TU/Minion3(0)/m/it' tried instead on input line
- 39.
+ 40.
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Module gregoriotex Info: Looking in  on input line 47
+Module gregoriotex Info: Looking in  on input line 49
 Module gregoriotex Info: Found jamLucis_sunday_1verse.gabc directly on input lin
-e 47
-Module gregoriotex Info: Looking in  on input line 47
+e 49
+Module gregoriotex Info: Looking in  on input line 49
 Module gregoriotex Info: Found jamLucis_sunday_1verse-6_0_0.gtex directly on inp
-ut line 47
+ut line 49
 
 (./jamLucis_sunday_1verse-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
@@ -1323,12 +1324,12 @@ Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Looking in  on input line 80
+Module gregoriotex Info: Looking in  on input line 81
 Module gregoriotex Info: Found hy--jam_lucis_orto_sidere_(feriis_et_officiis_sim
-plicibus_per_annum)--solesmes_1934.gabc directly on input line 80
-Module gregoriotex Info: Looking in  on input line 80
+plicibus_per_annum)--solesmes_1934.gabc directly on input line 81
+Module gregoriotex Info: Looking in  on input line 81
 Module gregoriotex Info: Found hy--jam_lucis_orto_sidere_(feriis_et_officiis_sim
-plicibus_per_annum)--solesmes_1934-6_0_0.gtex directly on input line 80
+plicibus_per_annum)--solesmes_1934-6_0_0.gtex directly on input line 81
 
 (./hy--jam_lucis_orto_sidere_(feriis_et_officiis_simplicibus_per_annum)--solesm
 es_1934-6_0_0.gtex
@@ -1338,12 +1339,12 @@ Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'. [2]
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Looking in  on input line 85
+Module gregoriotex Info: Looking in  on input line 86
 Module gregoriotex Info: Found hy--jam_lucis_orto_sidere_(solemnitatibus)--soles
-mes_1934.gabc directly on input line 85
-Module gregoriotex Info: Looking in  on input line 85
+mes_1934.gabc directly on input line 86
+Module gregoriotex Info: Looking in  on input line 86
 Module gregoriotex Info: Found hy--jam_lucis_orto_sidere_(solemnitatibus)--soles
-mes_1934-6_0_0.gtex directly on input line 85
+mes_1934-6_0_0.gtex directly on input line 86
 
 (./hy--jam_lucis_orto_sidere_(solemnitatibus)--solesmes_1934-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
@@ -1353,27 +1354,27 @@ Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 [3]
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 [4]
-Module gregoriotex Info: Looking in  on input line 118
+Module gregoriotex Info: Looking in  on input line 119
 Module gregoriotex Info: Found an--vivo_ego--solesmes.gabc directly on input lin
-e 118
-Module gregoriotex Info: Looking in  on input line 118
+e 119
+Module gregoriotex Info: Looking in  on input line 119
 Module gregoriotex Info: Found an--vivo_ego--solesmes-6_0_0.gtex directly on inp
-ut line 118
+ut line 119
  (./an--vivo_ego--solesmes-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
@@ -1381,12 +1382,12 @@ Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Looking in  on input line 121
+Module gregoriotex Info: Looking in  on input line 122
 Module gregoriotex Info: Found an--alleluia._(sund._p._t._at_prime)--solesmes_19
-61.1.gabc directly on input line 121
-Module gregoriotex Info: Looking in  on input line 121
+61.1.gabc directly on input line 122
+Module gregoriotex Info: Looking in  on input line 122
 Module gregoriotex Info: Found an--alleluia._(sund._p._t._at_prime)--solesmes_19
-61.1-6_0_0.gtex directly on input line 121
+61.1-6_0_0.gtex directly on input line 122
 
 (./an--alleluia._(sund._p._t._at_prime)--solesmes_1961.1-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
@@ -1403,18 +1404,18 @@ Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{R});
-(lettrine.sty)             reported on input line 135.
+(lettrine.sty)             reported on input line 136.
 Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{P});
-(lettrine.sty)             reported on input line 141.
-Module gregoriotex Info: Looking in  on input line 148
+(lettrine.sty)             reported on input line 142.
+Module gregoriotex Info: Looking in  on input line 149
 Module gregoriotex Info: Found rb--christe_fili_dei_vivi--vatican.gabc directly 
-on input line 148
-Module gregoriotex Info: Looking in  on input line 148
+on input line 149
+Module gregoriotex Info: Looking in  on input line 149
 Module gregoriotex Info: Found rb--christe_fili_dei_vivi--vatican-6_0_0.gtex dir
-ectly on input line 148
+ectly on input line 149
 
 (./rb--christe_fili_dei_vivi--vatican-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
@@ -1427,61 +1428,61 @@ Missing character: There is no y (U+0079) in font nullfont!
 ]
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Processing gabc snippet... on input line 156
+Module gregoriotex Info: Processing gabc snippet... on input line 157
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 160
+Module gregoriotex Info: Processing gabc snippet... on input line 161
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 164
+Module gregoriotex Info: Processing gabc snippet... on input line 165
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 168
+Module gregoriotex Info: Processing gabc snippet... on input line 169
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [6]
-Module gregoriotex Info: Processing gabc snippet... on input line 172
+Module gregoriotex Info: Processing gabc snippet... on input line 173
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 176
+Module gregoriotex Info: Processing gabc snippet... on input line 177
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 180
+Module gregoriotex Info: Processing gabc snippet... on input line 181
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Looking in  on input line 183
+Module gregoriotex Info: Looking in  on input line 184
 Module gregoriotex Info: Found rb--christe_fili_dei_vivi_(tempore_adventus)--sol
-esmes.gabc directly on input line 183
-Module gregoriotex Info: Looking in  on input line 183
+esmes.gabc directly on input line 184
+Module gregoriotex Info: Looking in  on input line 184
 Module gregoriotex Info: Found rb--christe_fili_dei_vivi_(tempore_adventus)--sol
-esmes-6_0_0.gtex directly on input line 183
+esmes-6_0_0.gtex directly on input line 184
  (./rb--christe_fili_dei_vivi_(tempore_adventus)--solesmes-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
@@ -1493,11 +1494,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--447
 
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 190
+Module gregoriotex Info: Processing gabc snippet... on input line 191
 [7]
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
@@ -1505,12 +1506,12 @@ Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Looking in  on input line 194
+Module gregoriotex Info: Looking in  on input line 195
 Module gregoriotex Info: Found rb--christe_fili_dei_vivi_(tempore_paschali)--sol
-esmes.gabc directly on input line 194
-Module gregoriotex Info: Looking in  on input line 194
+esmes.gabc directly on input line 195
+Module gregoriotex Info: Looking in  on input line 195
 Module gregoriotex Info: Found rb--christe_fili_dei_vivi_(tempore_paschali)--sol
-esmes-6_0_0.gtex directly on input line 194
+esmes-6_0_0.gtex directly on input line 195
  (./rb--christe_fili_dei_vivi_(tempore_paschali)--solesmes-6_0_0.gtex
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
@@ -1518,25 +1519,25 @@ Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 201
+Module gregoriotex Info: Processing gabc snippet... on input line 202
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 205
+Module gregoriotex Info: Processing gabc snippet... on input line 206
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 209
+Module gregoriotex Info: Processing gabc snippet... on input line 210
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
@@ -1547,19 +1548,19 @@ Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{K});
-(lettrine.sty)             reported on input line 219.
+(lettrine.sty)             reported on input line 220.
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--229
+Underfull \hbox (badness 10000) in paragraph at lines 220--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--249
+Underfull \hbox (badness 10000) in paragraph at lines 238--250
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
@@ -1567,29 +1568,29 @@ Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{M});
-(lettrine.sty)             reported on input line 260.
+(lettrine.sty)             reported on input line 261.
 Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
 \MakeUppercase    []{C});
-(lettrine.sty)             reported on input line 271.
+(lettrine.sty)             reported on input line 272.
 Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{M});
-(lettrine.sty)             reported on input line 276.
+(lettrine.sty)             reported on input line 277.
 Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{I});
-(lettrine.sty)             reported on input line 280.
+(lettrine.sty)             reported on input line 281.
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
@@ -1597,20 +1598,20 @@ Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{D});
-(lettrine.sty)             reported on input line 297.
+(lettrine.sty)             reported on input line 298.
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 301
+Module gregoriotex Info: Processing gabc snippet... on input line 302
 Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
 Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
 Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
@@ -1618,14 +1619,14 @@ Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
 \MakeUppercase    []{S});
-(lettrine.sty)             reported on input line 309.
+(lettrine.sty)             reported on input line 310.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--321
+Underfull \hbox (badness 10000) in paragraph at lines 317--322
 
  []
 
@@ -1634,18 +1635,173 @@ Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{D});
-(lettrine.sty)             reported on input line 326.
+(lettrine.sty)             reported on input line 327.
 Package lettrine.sty Info: Targeted height = 18.5pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
 \MakeUppercase    []{D});
-(lettrine.sty)             reported on input line 340.
+(lettrine.sty)             reported on input line 341.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
 
  []
 
-[12] [13] (./main.aux)
+[12] [13]
+\openout2 = lectiobrevis.aux
+ (./lectiobrevis.tex
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{D});
+(lettrine.sty)             reported on input line 13.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{P});
+(lettrine.sty)             reported on input line 18.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{I});
+(lettrine.sty)             reported on input line 24.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{P});
+(lettrine.sty)             reported on input line 30.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{I});
+(lettrine.sty)             reported on input line 36.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{H});
+(lettrine.sty)             reported on input line 42.
+ [14
+
+]
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{I});
+(lettrine.sty)             reported on input line 48.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{O});
+(lettrine.sty)             reported on input line 54.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{O});
+(lettrine.sty)             reported on input line 60.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{S});
+(lettrine.sty)             reported on input line 66.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{Q});
+(lettrine.sty)             reported on input line 72.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.92274pt (\color {gregoriocolor}
+\MakeUppercase    []{F});
+(lettrine.sty)             reported on input line 78.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{S});
+(lettrine.sty)             reported on input line 84.
+ [15]
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{V});
+(lettrine.sty)             reported on input line 90.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{S});
+(lettrine.sty)             reported on input line 95.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{J});
+(lettrine.sty)             reported on input line 101.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.47252pt (\color {gregoriocolor}
+\MakeUppercase    []{T});
+(lettrine.sty)             reported on input line 107.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{Q});
+(lettrine.sty)             reported on input line 113.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.92274pt (\color {gregoriocolor}
+\MakeUppercase    []{F});
+(lettrine.sty)             reported on input line 119.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{I});
+(lettrine.sty)             reported on input line 125.
+ [16]
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{D});
+(lettrine.sty)             reported on input line 131.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{I});
+(lettrine.sty)             reported on input line 146.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{S});
+(lettrine.sty)             reported on input line 152.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{L});
+(lettrine.sty)             reported on input line 158.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.25261pt (\color {gregoriocolor}
+\MakeUppercase    []{S});
+(lettrine.sty)             reported on input line 164.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.92274pt (\color {gregoriocolor}
+\MakeUppercase    []{E});
+(lettrine.sty)             reported on input line 170.
+ [17]
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{L});
+(lettrine.sty)             reported on input line 176.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{I});
+(lettrine.sty)             reported on input line 182.
+Package lettrine.sty Info: Targeted height = 18.5pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 17.86777pt (\color {gregoriocolor}
+\MakeUppercase    []{P});
+(lettrine.sty)             reported on input line 188.
+) [18] (./main.aux
+(./lectiobrevis.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1653,25 +1809,25 @@ L3 programming layer <2020/03/25>
 )
 
 Here is how much of LuaTeX's memory you used:
- 31500 strings out of 476447
+ 31545 strings out of 476447
  305806,1977958 words of node,token memory allocated
- 2536 words of node memory still in use:
-   27 hlist, 4 vlist, 13 rule, 1 disc, 1 local_par, 18 glue, 24 kern, 7 penalty,
- 17 glyph, 245 attribute, 219 glue_spec, 38 attribute_list, 2 write, 1 user_defi
+ 2596 words of node memory still in use:
+   27 hlist, 4 vlist, 13 rule, 2 disc, 1 local_par, 18 glue, 25 kern, 7 penalty,
+ 19 glyph, 255 attribute, 219 glue_spec, 40 attribute_list, 4 write, 1 user_defi
 ned nodes
-   avail lists: 1:9,2:35700,3:4292,4:69,5:7034,6:448,7:6328,8:2,9:7998,10:47,11:
-578
- 53218 multiletter control sequences out of 65536+600000
- 57 fonts using 20494487 bytes
+   avail lists: 1:9,2:35688,3:4290,4:69,5:7033,6:448,7:6326,8:2,9:8027,10:47,11:
+577
+ 53246 multiletter control sequences out of 65536+600000
+ 60 fonts using 21934831 bytes
  90i,12n,120p,1000b,4669s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Fonts/Minion3-Italic.otf></usr/local/texlive/2024/texmf-dist/fonts/tru
 etype/public/gregoriotex/greextra.ttf></usr/local/texlive/2024/texmf-dist/fonts/
 truetype/public/gregoriotex/greciliae.ttf></Library/Fonts/Minion3-Bold.otf></Lib
 rary/Fonts/Minion3-Regular.otf>
-Output written on main.pdf (13 pages, 66122 bytes).
+Output written on main.pdf (18 pages, 82495 bytes).
 
-PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+PDF statistics: 96 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1757969303.84484 "martyrology.tex" "martyrology.pdf" "martyrology" 1757969386.52663 0
+["lualatex"] 1761330631.99285 "martyrology.tex" "martyrology.pdf" "martyrology" 1761330702.91486 0
   "/Library/Fonts/Minion3-Bold.otf" 1662918514 602704 7713d815ce16da0aed430f4a780487db ""
   "/Library/Fonts/Minion3-Italic.otf" 1662918514 497036 47af473bea6a628d09566075f6c55984 ""
   "/Library/Fonts/Minion3-Regular.otf" 1662918514 620076 d4bd48c68d376fd015ddcebb31f30f07 ""
@@ -15,7 +15,7 @@
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1743718946.00977 127327 76a1047b4dbbf48407ed6ace26562c1b ""
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1746720207.47152 127960 6581edc0767e57a49e1974d1350623ff ""
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/minion3-regular.luc" 1743718948.54341 2447473 c2f7a3cd0efb75e10ddb7050e2fdb1b7 ""
-  "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1757724326.6292 9802 1b628641b36c2223c0b7542384adaac5 ""
+  "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1761318636.70231 21395 6b3f50e6e3e1f6b75009e90adaef71aa ""
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1743718945.9633 413790 250744864b6fcee82c23bcf2c049dc14 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -174,8 +174,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737660202.46621 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/tex/generic/config/language.dat.lua" 1710266660 17725 9e222d8aeebf523019f8a145acf0d251 ""
   "/usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1737660129 12257080 43f739e8acaa5e660744d0333b388b5c ""
-  "martyrology.aux" 1757969384.60316 712541 899b0f686f91ca17132053b914b90930 "lualatex"
-  "martyrology.tex" 1757969291.51337 2054652 2ae5ef457763724004fa776663372766 ""
+  "martyrology.aux" 1761330700.96698 712542 c15835ec26f8d64a3f65681fd45558f2 "lualatex"
+  "martyrology.tex" 1761330629.67984 2060821 1f9d7c8aafffd53497a8133a21e89c40 ""
   (generated)
   "martyrology.aux"
   "martyrology.log"

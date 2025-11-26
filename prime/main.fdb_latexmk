@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1762025251.6913 "main.tex" "main.pdf" "main" 1762025276.91325 0
+["lualatex"] 1762995298.74037 "main.tex" "main.pdf" "main" 1762995324.19061 0
   "/Library/Fonts/Minion3-Bold.otf" 1662918514 602704 7713d815ce16da0aed430f4a780487db ""
   "/Library/Fonts/Minion3-Italic.otf" 1662918514 497036 47af473bea6a628d09566075f6c55984 ""
   "/Library/Fonts/Minion3-Regular.otf" 1662918514 620076 d4bd48c68d376fd015ddcebb31f30f07 ""
@@ -15,11 +15,11 @@
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/minion3-bolditalic.luc" 1743718950.25916 2011667 41ca77889a1596d9d24f7ebb819d4dfc ""
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/minion3-italic.luc" 1743718953.95645 1953468 d6698123cfa3daefa83d6fb8041073d8 ""
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/minion3-regular.luc" 1743718948.54341 2447473 c2f7a3cd0efb75e10ddb7050e2fdb1b7 ""
-  "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1761836223.83434 21740 6e4005e4eed7b0fadb87e6f306c4d136 ""
+  "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1762993892.12806 22898 e1ade2f8a28c6d2ad856f4606b6aa814 ""
   "/Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1743718945.9633 413790 250744864b6fcee82c23bcf2c049dc14 ""
-  "/Users/frbarnes/Library/texmf/tex/liturgy/liturgy.sty" 1762025249.25294 17977 0f7c48ffa916042755a1f7d2a7a6e21d ""
+  "/Users/frbarnes/Library/texmf/tex/liturgy/liturgy.sty" 1762989169.19804 18080 b2cb096ec1afb0315bacd4fb8b7a4465 ""
   "/Users/frbarnes/Library/texmf/tex/psalms/psalms.sty" 1761069531.17994 6451 61515ee307b18a71a6dcd2848809088c ""
-  "/Users/frbarnes/Library/texmf/tex/psalms/psalmtones.lua" 1761213333.78335 39153 db411acb8171a5014521a25575e18bc7 ""
+  "/Users/frbarnes/Library/texmf/tex/psalms/psalmtones.lua" 1762077680.10072 39163 e8b2085053509aafce3c01c11a4752e6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf" 1615677678 1096844 ac8c42cf2c8105cf01f8c9c93639a0cf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf" 1614638052 24760 bf3e54e3513078cfc2c18dedee4c5313 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -180,10 +180,12 @@
   "hy--jam_lucis_orto_sidere_(solemnitatibus)--solesmes_1934.gabc" 1757717510.59818 1408 7b7a9f6e2b6c7b269ef441fa5feda932 ""
   "jamLucis_sunday_1verse-6_0_0.gtex" 1761846828.66894 10141 e7ed45eb9918e3049ead29382d8d8cf5 ""
   "jamLucis_sunday_1verse.gabc" 1761846614.22631 380 3369aa62845c6dcb2f36b0eb58226ea7 ""
+  "lectiobrevis.aux" 1762995323.99822 1955 9fabc3123984001d62dbdfa390aefab5 "lualatex"
+  "lectiobrevis.tex" 1762995297.28004 12200 dfb4822a731b43b3730d7048cea7d9d5 ""
   "main-iofl.ind" 1761856733.67203 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main-iofl.idx"
-  "main.aux" 1762025276.73414 228 9e0567b9ed93d25651f9f099344f0c21 "lualatex"
+  "main.aux" 1762995323.99854 254 e4ebb71c3ee1f71c5a6d223ffe397f74 "lualatex"
   "main.gaux" 1762024207.85834 4089 d8f6ab8456a1004da25ae49d65f66b3c ""
-  "main.tex" 1761856927.98989 14867 6755845cbb913b2ba45bd088ad76336f ""
+  "main.tex" 1762962235.37699 14910 2049466cc9b6d96886627b85d6058a1e ""
   "rb--christe_fili_dei_vivi--vatican-6_0_0.gtex" 1757724326.61835 23590 94182312638c620799cfcb39804d1326 ""
   "rb--christe_fili_dei_vivi--vatican.gabc" 1757724217.43773 742 e99447866388c35a90dc467c1db52926 ""
   "rb--christe_fili_dei_vivi_(tempore_adventus)--solesmes-6_0_0.gtex" 1761750533.49504 16649 b304a25048deb148f9272a6baf788e11 ""
@@ -191,13 +193,14 @@
   "rb--christe_fili_dei_vivi_(tempore_paschali)--solesmes-6_0_0.gtex" 1761750768.96068 19275 433479dce96e316e94fd92becba8a8c9 ""
   "rb--christe_fili_dei_vivi_(tempore_paschali)--solesmes.gabc" 1761750727.37011 618 ddde8e6f79c69ed2457c3b8c00581a73 ""
   (generated)
+  "lectiobrevis.aux"
   "main-iofl.idx"
   "main.aux"
   "main.log"
   "main.pdf"
   (rewritten before read)
-["makeindex main-iofl.idx"] 1761856732.97812 "main-iofl.idx" "main-iofl.ind" "main-iofl" 1762025276.91311 0
-  "main-iofl.idx" 1762025256.26144 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex main-iofl.idx"] 1761856732.97812 "main-iofl.idx" "main-iofl.ind" "main-iofl" 1762995324.1905 0
+  "main-iofl.idx" 1762995303.29738 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "main-iofl.ilg"
   "main-iofl.ind"
