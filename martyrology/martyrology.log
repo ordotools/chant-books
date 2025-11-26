@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.23)  24 OCT 2025 14:30
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.12.27)  26 NOV 2025 17:28
  restricted system commands enabled.
 **martyrology.tex
 (./martyrology.tex
@@ -8,8 +8,8 @@ Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "/Users/frbarnes/Library/texlive/202
-4/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/Users/gregorybarnes/Library/texliv
+e/2024/texmf-var/luatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
 olved path "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-
 2023-12-28.lua".
@@ -20,8 +20,8 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/Users/frbarnes/Library/texlive/202
-4/texmf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/Users/gregorybarnes/Library/texliv
+e/2024/texmf-var/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -76,8 +76,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/memoir/mem11.clo
 File: mem11.clo 2022/07/29 v0.5 memoir class 11pt size option
-luaotfload | db : Font names database loaded from /Users/frbarnes/Library/texliv
-e/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+luaotfload | db : Font names database loaded from /Users/gregorybarnes/Library/t
+exlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \binding=\skip53
 \spinemargin=\skip54
 \foremargin=\skip55
@@ -526,11 +526,11 @@ Package polyglossia Info: Default language is english.
 File: gloss-latin.ldf polyglossia: module for Latin
 Module polyglossia Info: Language data for latin
 (polyglossia)            synonyms	
-(polyglossia)            loader	loadhyph-la.tex
-(polyglossia)            patterns	hyph-la.pat.txt
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	 on input line 16
+(polyglossia)            patterns	hyph-la.pat.txt
+(polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-la.tex on input line 16
 Module polyglossia Info: Language latin was not yet loaded; created with id 2 on
  input line 16
 Lua-only attribute polyglossia_punct = 4
@@ -552,8 +552,8 @@ Package babel Info: Making ' an active character on input line 618.
 Package babel Info: Making ^ an active character on input line 619.
 Package babel Info: Making = an active character on input line 620.
 )
-luaotfload | cache : Lookup cache loaded from /Users/frbarnes/Library/texlive/20
-24/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from /Users/gregorybarnes/Library/texli
+ve/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: Font family 'Minion3(0)' created for font 'Minion 3'
 (fontspec)             with options [Renderer=Harfbuzz,Ligatures=TeX].
@@ -51454,8 +51454,9 @@ te, 241 glue_spec, 1518 attribute_list, 2 write, 1 user_defined nodes
  61 fonts using 27425279 bytes
  85i,11n,89p,1007b,1107s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/truetype/public/gregoriotex/greextra.t
-tf></Library/Fonts/Minion3-Regular.otf></Library/Fonts/Minion3-Italic.otf></Libr
-ary/Fonts/Minion3-Bold.otf>
+tf></Users/gregorybarnes/Library/Fonts/Minion3-Regular.otf></Users/gregorybarnes
+/Library/Fonts/Minion3-Italic.otf></Users/gregorybarnes/Library/Fonts/Minion3-Bo
+ld.otf>
 Output written on martyrology.pdf (371 pages, 1940495 bytes).
 
 PDF statistics: 1197 PDF objects out of 1200 (max. 8388607)
