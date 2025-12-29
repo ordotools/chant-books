@@ -1,8 +1,8 @@
 
 \documentclass[11pt,twoside, openright]{memoir}
 
-\widowpenalty=9500 % TODO: get this to work at least for the dropcaps
-% \clubpenalty=5000
+% \widowpenalty=9500 % TODO: get this to work at least for the dropcaps
+% % \clubpenalty=5000
 \raggedbottom
 
 % ------------ Running titles control ------------
@@ -18,16 +18,15 @@
 
 \usepackage{graphicx}
 
-\usepackage{fancyhdr}
-\fancyhf{}
-\pagestyle{fancy}
+% \usepackage{fancyhdr}
+% \fancyhf{}
+% \pagestyle{fancy}
 
 % % ------------ Page style: numbers outside, titles centered ------------
 % \makeevenfoot{dualheads}{}{}{} % empty footers
 %
 % % Optional spacing tweaks
 % \setlength{\headsep}{18pt}
-\checkandfixthelayout % memoir convenience
 
 
 % --- Engines & fonts (compile with XeLaTeX or LuaLaTeX) ---
@@ -55,36 +54,15 @@
 	{\color{gregoriocolor}\small #1}%
 }
 
+\newcommand\black[1]{{\color{black}\small #1}}
 
-% --- Base header/footer content (shared) ---
-\fancyhf{}
-\fancyhead[RO,LE]{\thepage}
-\fancyhead[CE,CO]{\textbf{Your Title}}
 
-% --- With colored rule ---
-\fancypagestyle{normal}{
-  \fancyhead[RO,LE]{\thepage}
-  \fancyhead[CE,CO]{{\footnotesize \MakeUppercase{\latinrunning}}}
-  \fancyfoot[CO,CE]{}
-  \renewcommand{\headrulewidth}{0.5pt}
-  \renewcommand{\headrule}{%
-    {\color{gregoriocolor}\hrule height \headrulewidth width\headwidth \vskip-\headrulewidth}%
-  }
-}
-
-\fancypagestyle{monthBeginning}{
-  \fancyhead[RO,LE]{}
-  \fancyhead[CE,CO]{}
-  \fancyfoot[CO,CE]{\thepage}
-  \renewcommand{\headrulewidth}{0pt} % hides the rule cleanly
-}
 
 % Response symbol convenience
 \providecommand{\rbar}{\Rbar}
 
 % --- Layout & tables ---
 \usepackage{paracol}
-\usepackage{geometry}
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{booktabs}
@@ -93,10 +71,69 @@
 % --- Typography / hyphenation ---
 \usepackage{microtype}
 \usepackage{needspace}
-\geometry{margin=1in}
+% \usepackage{geometry}
+% \geometry{margin=1in}
+
 \setlength{\parskip}{0.6em}
 \setlength{\parindent}{0pt}
 \emergencystretch=2em
+
+\checkandfixthelayout % memoir convenience
+
+% 1. Create a new page style called 'normal'
+\makepagestyle{normal}
+
+% 2. Set the header content
+% [even header] [odd header]
+\makeevenhead{normal}{\thepage}{}{\footnotesize\MakeUppercase{\latinrunning}}
+\makeoddhead{normal}{\footnotesize\MakeUppercase{\latinrunning}}{}{\thepage}
+
+% 3. Configure the colored rule
+% Syntax: \makeheadrule{style}{width}{thickness}
+% \renewcommand{\makeheadrule}[3]{%
+%   \memdeviceanchor % helps with hyperref/bookmarks
+%   {\color{gregoriocolor}\hrule width #2 height #3}\vskip-#3}
+% \makeheadrule{normal}{\textwidth}{\headrulewidth}
+% \renewcommand{\headrulestyle}{\color{gregoriocolor}}
+
+% 2. Define the Colored Rule for 'normal'
+% We override the default rule drawing with a simple colored hrule
+\makeheadrule{normal}{\textwidth}{0.5pt}
+\renewcommand{\makeheadrule}[3]{%
+  {\color{gregoriocolor}\hrule width #2 height #3}\vskip-#3}
+
+% Set the thickness (0.5pt as you had before)
+\makeheadrule{normal}{\textwidth}{0.5pt}
+
+% 4. Create the 'monthBeginning' style (footer only, no rule)
+\makepagestyle{monthBeginning}
+\makeevenfoot{monthBeginning}{}{\thepage}{}
+\makeoddfoot{monthBeginning}{}{\thepage}{}
+\makeheadrule{monthBeginning}{\textwidth}{0pt} % Remove rule
+
+
+% % --- Base header/footer content (shared) ---
+% \fancyhf{}
+% \fancyhead[RO,LE]{\thepage}
+% \fancyhead[CE,CO]{\textbf{Your Title}}
+%
+% % --- With colored rule ---
+% \fancypagestyle{normal}{
+%   \fancyhead[RO,LE]{\thepage}
+%   \fancyhead[CE,CO]{{\footnotesize \MakeUppercase{\latinrunning}}}
+%   \fancyfoot[CO,CE]{}
+%   \renewcommand{\headrulewidth}{0.5pt}
+%   \renewcommand{\headrule}{%
+%     {\color{gregoriocolor}\hrule height \headrulewidth width\headwidth \vskip-\headrulewidth}%
+%   }
+% }
+%
+% \fancypagestyle{monthBeginning}{
+%   \fancyhead[RO,LE]{}
+%   \fancyhead[CE,CO]{}
+%   \fancyfoot[CO,CE]{\thepage}
+%   \renewcommand{\headrulewidth}{0pt} % hides the rule cleanly
+% }
 
 % --- Drop caps ---
 \usepackage{lettrine}
@@ -112,7 +149,7 @@
 \excludeversion{roman}
 
 
-\fancyfoot{}
+% \fancyfoot{}
 
 \begin{document}
 

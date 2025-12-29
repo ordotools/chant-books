@@ -93,7 +93,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.lua
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
@@ -150,8 +149,6 @@ INPUT /Users/frbarnes/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/
 INPUT /usr/local/texlive/2024/texmf-dist/tex/luatex/gregoriotex/gregoriotex-gsp-default.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/paracol/paracol.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-luatex.def
@@ -181,6 +178,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.lua
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+OUTPUT martyrology.pdf
 OUTPUT parts/title.aux
 INPUT ./parts/title.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -194,7 +192,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-OUTPUT martyrology.pdf
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 OUTPUT parts/january.aux
 INPUT ./parts/january.tex
